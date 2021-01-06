@@ -50,4 +50,9 @@ class Stack {
             delete this.queue[this.head++];
             return remove;
         }
+
+        // the following states how many items are in a queue
+        size() {
+            return this.tail - this.head;
+        }
     }
