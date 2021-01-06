@@ -56,3 +56,25 @@ class Stack {
             return this.tail - this.head;
         }
     }
+
+    // -------------------------------------------------------------------
+
+    // Double Linked List
+
+    class LinkedList {
+        constructor() {
+            this.head = null;
+            this.tail = null;
+        }
+
+        //the following adds items to the head of the list
+        addToHead(item) {
+            let newNode = new Node(item);
+            if (!this.tail) this.tail = newNode;
+            if (this.head) {
+                this.head.previous = newNode;
+                newNode.next = this.head;
+            }
+            this.head = newNode;
+        }
+    }
