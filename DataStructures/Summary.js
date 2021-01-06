@@ -88,4 +88,16 @@ class Stack {
             }
             this.tail = newNode;
         }
+
+        // the following removes items from the head of the list
+        removeHead() {
+            if (!this.head) return;
+            let remove = this.head;
+            if (remove.next) {
+                // if the next node exists then
+                this.head = null;
+                this.tail = null;
+            }
+            return remove.value;
+        }
     }
