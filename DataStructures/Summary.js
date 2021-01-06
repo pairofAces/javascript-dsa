@@ -77,4 +77,15 @@ class Stack {
             }
             this.head = newNode;
         }
+
+        //the following adds items to the tail of the list
+        addToTail(item) {
+            let newNode = new Node(item);
+            if (!this.head) this.head = newNode;
+            if (this.tail) {
+                this.tail.next = newNode;
+                newNode.previous = this.tail;
+            }
+            this.tail = newNode;
+        }
     }
