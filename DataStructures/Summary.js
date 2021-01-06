@@ -25,3 +25,29 @@ class Stack {
 }
 
 // -----------------------------------------------------------------------
+
+// Queue
+    // First in, First out (FiFo)
+    // the first item in is the first out
+    // similar to a real life line
+
+    class Queue {
+        constructor() {
+            this.queue = {};
+            this.head = 0;
+            this.tail = 0;
+        }
+
+        // the following will ADD items to the end of the queue
+        enqueue(item) {
+            this.queue[this.tail++] = item;
+        }
+
+        //the following will REMOVE items from the head of the queue
+        dequeue() {
+            if (this.tail === this.head) return;
+            let remove = this.queue[this.head];
+            delete this.queue[this.head++];
+            return remove;
+        }
+    }
