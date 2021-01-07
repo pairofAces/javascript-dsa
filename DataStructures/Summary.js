@@ -116,4 +116,17 @@ class Stack {
             }
             return remove.value;
         }
+
+        // the following will search for a nodes value using strings/func
+            // start with the head:
+                // if no node -> end
+                // else -> determine if the style is string or function
+
+            // 3 if statements will be the base cases (recurse)
+            search(style, searchNode = this.head) {
+                if (!this.searchNode) return null;
+                if (typeof style === "string" || searchNode.value === style) {
+                    return searchNode.value;
+                }
+            }
     }
