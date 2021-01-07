@@ -123,10 +123,25 @@ class Stack {
                 // else -> determine if the style is string or function
 
             // 3 if statements will be the base cases (recurse)
-            search(style, searchNode = this.head) {
-                if (!this.searchNode) return null;
-                if (typeof style === "string" || searchNode.value === style) {
-                    return searchNode.value;
-                }
+        search(style, searchNode = this.head) {
+            if (!this.searchNode) {
+                return null;
             }
+            else if (typeof style === "string" && searchNode.value === style) {
+                return searchNode.value;
+            }
+            else if (typeof style === "function" && style(searchNode.value)) {
+                return searchNode.value;
+            }
+            return this.search(style, (searchNode = searchNode.next));
+        }
+    }
+
+    // the following is a class that creates the nodes for list(s)
+    class Node {
+        constructor(value) {
+            this.value = null;
+            this.next = null;
+            this.previous = null;
+        }
     }
