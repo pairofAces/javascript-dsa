@@ -100,4 +100,9 @@ class Stack {
             }
             return remove.value;
         }
+
+        // the following removes items from the tail of the list
+        removeTail() {
+            
+        }
     }
