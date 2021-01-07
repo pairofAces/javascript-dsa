@@ -145,3 +145,11 @@ class Stack {
             this.previous = null;
         }
     }
+
+// -----------------------------------------------------------------------
+    // Binary Search Tree
+        // each node is a binary search tree
+    
+    class BinarySearchTree {
+        
+    }
