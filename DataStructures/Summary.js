@@ -151,5 +151,8 @@ class Stack {
         // each node is a binary search tree
     
     class BinarySearchTree {
-        
+        constructor(val) {
+            this.value = val;
+            this.mag = 1;
+        }
     }
