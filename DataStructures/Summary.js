@@ -103,6 +103,17 @@ class Stack {
 
         // the following removes items from the tail of the list
         removeTail() {
-            
+            if (!this.tail) return;
+            let remove = this.tail;
+            if (remove.previous) {
+                // if there is a previous node
+                this.tail = remove.previous;
+                this.tail.next = null;
+            } else {
+                // if there are no no other nodes in the list
+                this.head = null;
+                this.tail = null;
+            }
+            return remove.value;
         }
     }
