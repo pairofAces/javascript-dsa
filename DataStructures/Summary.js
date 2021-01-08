@@ -155,4 +155,18 @@ class Stack {
             this.value = val;
             this.mag = 1;
         }
+
+        // the following will insert value into the proper place based
+        // on the other nodes value(s)
+        insert(val) {
+            let direction = val > this.value ? "left" : "right";
+            if(![this.direction]) {
+                this[direction] = new BinarySearchTree(val);
+                this.mag++;
+            } else {
+                this[direction].insert(val);
+            }
+        }
+
+        
     }
