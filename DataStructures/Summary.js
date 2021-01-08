@@ -168,5 +168,8 @@ class Stack {
             }
         }
 
-        
+        // the following will check to see if the tree has a specific value
+        contains(val) {
+            
+        }
     }
