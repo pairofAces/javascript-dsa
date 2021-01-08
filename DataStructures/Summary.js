@@ -174,4 +174,13 @@ class Stack {
             let direction = val < this.value ? "left" : "right";
             return this[direction] ? this[direction].contains(val) : false;
         }
+
+        // the following will search by using queue's to evaluate each
+        // node and children nodes
+            // first -> add a node to the queue
+            // then ->  add a child to the queue
+            // repeat
+        breadthFirstForEach(cb, queue = [this]) {
+            
+        }
     }
