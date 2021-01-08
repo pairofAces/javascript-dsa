@@ -170,6 +170,8 @@ class Stack {
 
         // the following will check to see if the tree has a specific value
         contains(val) {
-            
+            if (this.value === val) return true;
+            let direction = val < this.value ? "left" : "right";
+            return this[direction] ? this[direction].contains(val) : false;
         }
     }
