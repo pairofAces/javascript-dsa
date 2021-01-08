@@ -181,6 +181,12 @@ class Stack {
             // then ->  add a child to the queue
             // repeat
         breadthFirstForEach(cb, queue = [this]) {
-            
+            if (queue.length) {
+                const node = queue.shift();
+                cb(node.value);
+                if (node.left) queue.push(node.left);
+                if (node.right) queue.push(node.right);
+                return this.breadthFirstForEach(cb, queue);
+            }
         }
     }
