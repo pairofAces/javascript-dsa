@@ -189,4 +189,9 @@ class Stack {
                 return this.breadthFirstForEach(cb, queue);
             }
         }
+
+        // the following will search by using recursion
+        depthFirstForEach(cb, searchType) {
+            
+        }
     }
