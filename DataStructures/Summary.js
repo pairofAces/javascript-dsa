@@ -231,5 +231,11 @@ class Stack {
     // O (log n) time O(1) space
 
     const findClosestValueInBst = (currNode = tree, target, closest = Infinity) => {
-        
+        while(currNode) {
+            // if the difference b/w the closest and the target is > target - tree value
+            // the new closest is the tree value
+            const {value, left, right} = currNode
+
+            
+        }
     }
