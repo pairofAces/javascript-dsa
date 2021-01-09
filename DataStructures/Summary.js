@@ -225,7 +225,11 @@ class Stack {
         max() {
             return !this.right ? this.value : this.right.max();
         }
-
         
+    }
+    // the following is 
+    // O (log n) time O(1) space
+
+    const findClosestValueInBst = (currNode = tree, target, closest = Infinity) => {
         
     }
