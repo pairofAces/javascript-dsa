@@ -236,6 +236,12 @@ class Stack {
             // the new closest is the tree value
             const {value, left, right} = currNode
 
+            // check if the closest(s) has the least difference
+            if (Math.abs(closest - target) > Math.abs(target - value)) {
+                closest = value;
+            }
+
+            // go left or right depending on the value of the node
             
         }
     }
