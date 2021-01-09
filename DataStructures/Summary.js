@@ -215,5 +215,12 @@ class Stack {
         size() {
             return this.mag;
         }
+
+        // the following finds the smallest node value in a tree
+        min() {
+            return !this.left ? this.value : this.left.min();
+        }
+
+        
         
     }
