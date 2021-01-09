@@ -200,6 +200,10 @@ class Stack {
                 cb(this.value);
                 if (this.right) this.right.depthFirstForEach(cb);
             } else if (searchType === 'pre-order') {
+                cb(this.value);
+                if (this.left) this.left.depthFirstForEach(cb, 'pre-order');
+                if (this.right) this.right.depthFirstForEach(cb, 'pre-order');
+            } else if (searchType === 'post-order') {
                 
             }
         }
