@@ -204,7 +204,11 @@ class Stack {
                 if (this.left) this.left.depthFirstForEach(cb, 'pre-order');
                 if (this.right) this.right.depthFirstForEach(cb, 'pre-order');
             } else if (searchType === 'post-order') {
-                
+                if (this.left) this.left.depthFirstForEach(cb, 'post-order');
+                if (this.right) this.right.depthFirstForEach(cb, 'post-order');
+                cb(this.value);
             }
         }
+
+        
     }
