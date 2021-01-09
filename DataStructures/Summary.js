@@ -192,6 +192,12 @@ class Stack {
 
         // the following will search by using recursion
         depthFirstForEach(cb, searchType) {
-            
+            searchType ? searchType : (searchType = 'in-order');
+            if (searchType === 'in-order') {
+                // look left, look at the node, look right
+                // left/right is recursive
+                if (this.left) this.left.depthFirstForEach(cb);
+                cb(this.value);
+            }
         }
     }
