@@ -242,6 +242,16 @@ class Stack {
             }
 
             // go left or right depending on the value of the node
-            
+            if (target < value) {
+                currNode = left;
+            } else if (target > value) {
+                currNode = right;
+            } else {
+                // if it's the exact match
+                    // stop the iteration
+                return value;
+            }
+
+            return closest;
         }
     }
