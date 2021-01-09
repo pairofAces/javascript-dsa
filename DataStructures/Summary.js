@@ -198,6 +198,9 @@ class Stack {
                 // left/right is recursive
                 if (this.left) this.left.depthFirstForEach(cb);
                 cb(this.value);
+                if (this.right) this.right.depthFirstForEach(cb);
+            } else if (searchType === 'pre-order') {
+                
             }
         }
     }
