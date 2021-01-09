@@ -221,6 +221,11 @@ class Stack {
             return !this.left ? this.value : this.left.min();
         }
 
+        // the following finds the largest node in the tree
+        max() {
+            return !this.right ? this.value : this.right.max();
+        }
+
         
         
     }
