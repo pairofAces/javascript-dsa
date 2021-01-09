@@ -210,5 +210,10 @@ class Stack {
             }
         }
 
+        // the following will return the magnitude
+        // of a tree
+        size() {
+            return this.mag;
+        }
         
     }
