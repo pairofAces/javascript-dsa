@@ -5,7 +5,11 @@
 
 // twoSumNum using Hash
 function twoSumNumHash(array, targetSum) {
-    
+    const set = new Set(array);
+
+    for (let i = 0; i < array.length; i++) {
+        
+    }
 }
 
 
