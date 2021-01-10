@@ -2,11 +2,15 @@
 
 // 0(n^2) 
 
+
+// twoSumNum using Hash
+
+
+
+// using for loops
 const twoNumSum = (array, targetSum) => {
     const result = [];
     let min, max;
-
-    // using for loops
     for (let i = 0; i < array.length; i++) {
         for (let j = 0; j < array.length; j++) {
             let a = array[i];
@@ -20,3 +24,4 @@ const twoNumSum = (array, targetSum) => {
     }
     return result;
 }
+
