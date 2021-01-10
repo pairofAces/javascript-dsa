@@ -8,6 +8,13 @@ function twoSumNumHash(array, targetSum) {
     const set = new Set(array);
 
     for (let i = 0; i < array.length; i++) {
+        // create variable for the first number in array
+        let a = array[i];
+        // create variable for the difference of the targetSum and 'a'
+        let b = targetSum - a;
+
+        // create if statement to return the solution
+        
         
     }
 }
