@@ -1,18 +1,18 @@
 // Two Number Sum
 
-// 0(n^2) 
 
-
-// twoSumNum using Hash
+// constant time
+    // O(n) 
+// twoSumNum using Hash 
 function twoSumNumHash(array, targetSum) {
     const set = new Set(array);
-
+    
     for (let i = 0; i < array.length; i++) {
         // create variable for the first number in array
         let a = array[i];
         // create variable for the difference of the targetSum and 'a'
         let b = targetSum - a;
-
+        
         // create if statement to return the solution
         if (set.has(b) && a !== b) {
             return [a, b];
@@ -22,6 +22,7 @@ function twoSumNumHash(array, targetSum) {
 }
 
 
+// 0(n^2) 
 // using for loops
 const twoNumSum = (array, targetSum) => {
     const result = [];
