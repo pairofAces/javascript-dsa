@@ -21,7 +21,14 @@ function twoSumNumHash(array, targetSum) {
     return [];
 }
 
+// LeetCode
 // Two Sum with the indices of the numbers as the output
+    // Given an array of integers (nums) and an integer (target),
+    // return the indices of the two numbers such that they
+    // add up to the (target).
+        // can't use same element twice
+        // each input has 1 solution
+        // return the output in any order
 
 
 
