@@ -42,8 +42,16 @@ function twoSumIndices (nums, target) {
         // use an if statement to check if the diff is in 
         // the numberObj
         if (diff in numberObj) {
-            
+            // if it is, return the value of diff in the object
+                // the value will be the index of diff
+            return [numberObj[diff], i];
         }
+        // if diff isn't in the numberObj then
+        // insert a key:value pair of the current number and it's index
+        numberObj[nums[i]] = i; 
+
+        // (nums[i]) is the key
+        // (i) is the value
     }
 };
 
