@@ -2,7 +2,7 @@
 
 
 // constant time
-    // O(n) 
+    // O(n) -> b/c there is only 1 for loop and the use of a hash 
 // twoSumNum using Hash 
 function twoSumNumHash(array, targetSum) {
     const set = new Set(array);
