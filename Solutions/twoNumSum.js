@@ -30,7 +30,21 @@ function twoSumNumHash(array, targetSum) {
         // each input has 1 solution
         // return the output in any order
 function twoSumIndices (nums, target) {
-    
+    // create an empty obj
+    let numberObj = {};
+
+    // use a for loop to interate the (nums) array
+    for (let i = 0; i < nums.length; i++) {
+        // create a variable for the difference b/w the target and
+        // the current number
+        let diff = target - nums[i];
+        
+        // use an if statement to check if the diff is in 
+        // the numberObj
+        if (diff in numberObj) {
+            
+        }
+    }
 };
 
 
