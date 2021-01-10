@@ -21,6 +21,11 @@ function twoSumNumHash(array, targetSum) {
     return [];
 }
 
+// Two Sum with the indices of the numbers as the output
+
+
+
+
 
 // 0(n^2) 
 // using for loops
