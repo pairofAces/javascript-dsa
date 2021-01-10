@@ -4,7 +4,9 @@
 
 
 // twoSumNum using Hash
-
+function twoSumNumHash(array, targetSum) {
+    
+}
 
 
 // using for loops
