@@ -14,9 +14,11 @@ function twoSumNumHash(array, targetSum) {
         let b = targetSum - a;
 
         // create if statement to return the solution
-        
-        
+        if (set.has(b) && a !== b) {
+            return [a, b];
+        }
     }
+    return [];
 }
 
 
