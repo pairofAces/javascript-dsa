@@ -29,7 +29,9 @@ function twoSumNumHash(array, targetSum) {
         // can't use same element twice
         // each input has 1 solution
         // return the output in any order
-
+function twoSumIndices (nums, target) {
+    
+};
 
 
 
