@@ -35,6 +35,10 @@ const isSubsequence = (s ,t) => {
     // example: 
         // array = [1,2,3,4]
         // subsequence = [1,3,4]
+
+// Time complexity: O(n) -> (n) is the length of the array
+// Space complexity: O(1)
+
 function isValidSubsequence (array, sequence) {
     let s = 0;
     let a = 0;
