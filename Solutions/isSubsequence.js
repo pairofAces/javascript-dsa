@@ -23,3 +23,15 @@ const isSubsequence = (s ,t) => {
     // 'true' or 'false'
     return sIndex === s.length;
 };
+
+// -----------------------------------------------------------------------
+
+// Validate Subsequene - A.E.
+// Given two non-empty arrays of integers, write a function that
+// determines if the second array is a subsequene of the first one
+
+// Subsequence -> set of numbers that aren't necessarily adjacent,
+// but are in the same order as they are in the array.
+    // example: 
+        // array = [1,2,3,4]
+        // subsequence = [1,3,4]
