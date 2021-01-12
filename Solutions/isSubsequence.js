@@ -7,9 +7,11 @@ const isSubsequence = (s ,t) => {
     let tIndex = 0;
     while (sIndex < s.length && tIndex < t.length) {
         if (t[tIndex] === s[sIndex]) {
-
+            sIndex += 1;
+            tIndex += 1;
         } else {
-            
-        }
-    }
-}
+            tIndex += 1;
+        };
+    };
+    return sIndex === s.length;
+};
