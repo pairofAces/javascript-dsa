@@ -40,13 +40,22 @@ const isSubsequence = (s ,t) => {
 // Space complexity: O(1)
 
 function isValidSubsequence (array, sequence) {
+    // create variables to represent the indices in the 
+    // array and sequence
     let s = 0;
     let a = 0;
+    // while the above variables are less than the 
+    // length of the array and sequence
     while (s < sequence.length && a < array.length) {
+        // If the current element at (sequence) is 
+        // equal to the current element at (array)
         if (sequence[s] === array[a]) {
             s +=1
         }
         a += 1;
     }
+    // after successful iteration, return the boolean of
+    // the (s) equal to the length of the sequence array
+        // output should be 'true' or 'false'
     return s === sequence.length;
 };
