@@ -35,3 +35,6 @@ const isSubsequence = (s ,t) => {
     // example: 
         // array = [1,2,3,4]
         // subsequence = [1,3,4]
+function isValidSubsequence (array, sequence) {
+    
+};
