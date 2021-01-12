@@ -3,5 +3,13 @@
 // of (t).
 
 const isSubsequence = (s ,t) => {
-    
+    let sIndex = 0;
+    let tIndex = 0;
+    while (sIndex < s.length && tIndex < t.length) {
+        if (t[tIndex] === s[sIndex]) {
+
+        } else {
+            
+        }
+    }
 }
