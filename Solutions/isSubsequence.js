@@ -36,5 +36,13 @@ const isSubsequence = (s ,t) => {
         // array = [1,2,3,4]
         // subsequence = [1,3,4]
 function isValidSubsequence (array, sequence) {
-    
+    let s = 0;
+    let a = 0;
+    while (s < sequence.length && a < array.length) {
+        if (sequence[s] === array[a]) {
+            s +=1
+        }
+        a += 1;
+    }
+    return s === sequence.length;
 };
