@@ -28,4 +28,5 @@ function closestVaueBstHelper(tree, target, closest) {
             break;
         }
     }
+    return closest;
 };
