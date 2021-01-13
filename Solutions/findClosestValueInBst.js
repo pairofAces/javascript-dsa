@@ -36,5 +36,11 @@ function closestVaueBstHelper(tree, target, closest) {
 // Solution using arrow functions
 
 const findClosestValueInBst = (presentNode = tree, target, closest = Infinity) => {
-
+    while (presentNode) {
+        const { value, left, right } = presentNode;
+        // create an if statement to check if the closest and 
+        // the target is > than the target - tree.value
+            // if it is, then the new closest will be the tree.value
+        
+    }
 };
