@@ -41,6 +41,10 @@ const findClosestValueInBst = (presentNode = tree, target, closest = Infinity) =
         // create an if statement to check if the closest and 
         // the target is > than the target - tree.value
             // if it is, then the new closest will be the tree.value
-        
+       if (Math.abs(closest - target) > Math.abs(target - value)) {
+           closest = value;
+       } 
+
+    // work on the direction of the node
     }
 };
