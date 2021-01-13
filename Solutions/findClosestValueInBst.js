@@ -15,5 +15,13 @@ function findClosestValueInBst(tree, target) {
 
 // create the helper function here
 function closestVaueBstHelper(tree, target, closest) {
-
+    let presentNode = tree;
+    while (presentNode !== null) {
+        if (Math.abs(target - closest) > Math.abs(target - presentNode.value)) {
+            closest = presentNode.value;
+        }
+        if (target < presentNode.value) {
+            
+        }
+    }
 };
