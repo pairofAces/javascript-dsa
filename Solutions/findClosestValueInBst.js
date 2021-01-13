@@ -21,11 +21,11 @@ function closestVaueBstHelper(tree, target, closest) {
             closest = presentNode.value;
         }
         if (target < presentNode.value) {
-
+            presentNode = presentNode.left;
         } else if (target > presentNode.value) {
-
+            presentNode = presentNode.right;
         } else {
-            
+            break;
         }
     }
 };
