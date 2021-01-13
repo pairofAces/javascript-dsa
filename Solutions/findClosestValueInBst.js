@@ -35,3 +35,6 @@ function closestVaueBstHelper(tree, target, closest) {
 
 // Solution using arrow functions
 
+const findClosestValueInBst = (presentNode = tree, target, closest = Infinity) => {
+
+};
