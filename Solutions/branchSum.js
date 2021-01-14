@@ -22,6 +22,9 @@ function branchSums(root, sum = 0, results = []) {
     sum += value;
 
     // work on if statements below
+        // why do if/else statements cause errors? 
+        // the following only works with if statements
+            // (find out more info on if and if/else)
     if (!left && !right) {
         results.push(sum);
     }
