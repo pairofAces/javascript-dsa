@@ -20,5 +20,19 @@ function branchSums(root, sum = 0, results = []) {
     const { left, right, value } = root;
 
     sum += value;
-    
+
+    // work on if statements below
+    if (!left && !right) {
+        results.push(sum);
+    }
+
+    if (left) {
+        branchSums(left, sum, results);
+    }
+
+    if (right) {
+        branchSums(right, sum, results);
+    }
+
+    return results;
 }
