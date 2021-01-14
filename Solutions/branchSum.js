@@ -17,5 +17,8 @@ class BinaryTree {
 }
 
 function branchSums(root, sum = 0, results = []) {
+    const { left, right, value } = root;
+
+    sum += value;
     
 }
