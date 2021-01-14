@@ -15,3 +15,7 @@ class BinaryTree {
         this.right = null;
     }
 }
+
+function branchSums(root, sum = 0, results = []) {
+    
+}
