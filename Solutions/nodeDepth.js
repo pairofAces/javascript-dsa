@@ -6,6 +6,9 @@
 // Write a function that takes in a Binary Tree and 
 // returns the sum of its nodes' depths.
 
+// create a function with 2 parameters
+    // the root
+    // the depth, initally set to 0
 function nodeDepths(root, depth = 0) {
     if (root === null) {
         return 0;
