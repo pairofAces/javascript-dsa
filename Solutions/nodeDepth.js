@@ -6,6 +6,11 @@
 // Write a function that takes in a Binary Tree and 
 // returns the sum of its nodes' depths.
 
+// *** Time/Space
+    // Average Case: when the tree is balances
+    // Time complexity: 0(n) - where n is the # of nodes in Binary Tree
+    // Space complexity: 0(h) - where h is the height of Binary Tree
+
 // create a function with 2 parameters
     // the root
     // the depth, initally set to 0
