@@ -10,9 +10,12 @@
     // the root
     // the depth, initally set to 0
 function nodeDepths(root, depth = 0) {
+    // if root equals to null, return 0
     if (root === null) {
         return 0;
     }
+    // if there's a root, skip the above if statement
+    // and return the following
     return depth + nodeDepths(root.left, depth + 1) + nodeDepths(root.right, depth + 1);
 };
 
