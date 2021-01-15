@@ -5,3 +5,7 @@
 
 // Write a function that takes in a Binary Tree and 
 // returns the sum of its nodes' depths.
+
+function nodeDepths(root, depth = 0) {
+
+};
