@@ -11,7 +11,12 @@
         // If yes:
             //  call depthSearchHelper on each child
     
-    // 
+    // invoke the helper to each node while passing the 
+    // results array into each function call
+
+    // array is finally returned after all the recursive
+    // calls are made
+    
 class Node {
     constructor(name) {
         this.name = name;
