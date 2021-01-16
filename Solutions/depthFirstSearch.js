@@ -14,6 +14,10 @@ class Node {
         this.children.push(new Node(name));
         return this;
     }
+
+    depthFirstSearch(array) {
+        
+    }
 }
 
 
