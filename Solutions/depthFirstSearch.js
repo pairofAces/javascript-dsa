@@ -4,3 +4,9 @@
 // children nodes. When put together, nodes form an acyclic
 // tree-like structure.
 
+class Node {
+    constructor(name) {
+        this.name = name;
+        this.children = [];
+    }
+}
