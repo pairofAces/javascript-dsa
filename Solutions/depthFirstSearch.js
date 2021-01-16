@@ -8,7 +8,10 @@
     // when the function hits the node:
         // - add the node's name to the results array
     // Then, check if a node has children
-
+        // If yes:
+            //  call depthSearchHelper on each child
+    
+    // 
 class Node {
     constructor(name) {
         this.name = name;
