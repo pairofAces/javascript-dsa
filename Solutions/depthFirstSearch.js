@@ -10,3 +10,8 @@ class Node {
         this.children = [];
     }
 }
+
+addChild(name) {
+    this.children.push(new Node(name));
+    return this;
+}
