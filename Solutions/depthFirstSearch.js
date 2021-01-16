@@ -4,6 +4,11 @@
 // children nodes. When put together, nodes form an acyclic
 // tree-like structure.
 
+// Quick explanation of the code: (depthFirstSearch & the helper)
+    // when the function hits the node:
+        // - add the node's name to the results array
+    // Then, check if a node has children
+
 class Node {
     constructor(name) {
         this.name = name;
