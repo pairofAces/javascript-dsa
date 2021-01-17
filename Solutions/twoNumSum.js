@@ -1,7 +1,8 @@
 // Two Number Sum
 
 
-// 0(n log(n)) solution -> most optimal
+// O(n log(n)) Time complexity solution -> most optimal
+// O(1) - Space complexity
 function twoSumOptimal(array, targetSum) {
     // sort the array from small to large
     array.sort((a, b) => a - b);
