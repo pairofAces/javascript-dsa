@@ -9,13 +9,22 @@ function twoSumOptimal(array, targetSum) {
     let left = 0;
     let right = array.length - 1;
     // while loop to execute while (left) is < (right)
-
+    while (left < right) {
         // In the while loop, create a variable for
         // currentSum
-        
+        let currentSum = array[left] + array[right];
+
         // include an if statement to compare
         // the (currentSum) to (targetSum)
+        if (currentSum === targetSum) {
 
+        } else if (currentSum < targetSum) {
+
+        } else if (currentSum > targetSum) {
+
+        };
+    };
+    
     // if the code gets skipped, return an empty array
 };
 
