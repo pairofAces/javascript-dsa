@@ -1,6 +1,10 @@
 // Two Number Sum
 
 
+// 0(n log(n)) solution -> most optimal
+
+
+
 // constant time
     // O(n) -> b/c there is only 1 for loop and the use of a hash 
 // twoSumNum using Hash 
