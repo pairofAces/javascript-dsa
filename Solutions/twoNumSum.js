@@ -26,6 +26,7 @@ function twoSumOptimal(array, targetSum) {
     };
 
     // if the code gets skipped, return an empty array
+    return [];
 };
 
 
