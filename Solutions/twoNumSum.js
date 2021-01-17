@@ -2,7 +2,11 @@
 
 
 // 0(n log(n)) solution -> most optimal
+function twoSumOptimal(array, targetSum) {
+    // sort the array from small to large
 
+    // create variables for left and right pointers
+};
 
 
 // constant time
