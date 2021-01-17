@@ -6,7 +6,8 @@ function twoSumOptimal(array, targetSum) {
     // sort the array from small to large
     array.sort((a, b) => a - b);
     // create variables for left and right pointers
-
+    let left = 0;
+    let right = array.length - 1;
     // while loop to execute while (left) is < (right)
 
         // In the while loop, create a variable for
