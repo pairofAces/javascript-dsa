@@ -17,14 +17,14 @@ function twoSumOptimal(array, targetSum) {
         // include an if statement to compare
         // the (currentSum) to (targetSum)
         if (currentSum === targetSum) {
-
+            return [array[left], array[right]];
         } else if (currentSum < targetSum) {
-
+            left++;
         } else if (currentSum > targetSum) {
-
+            right--;
         };
     };
-    
+
     // if the code gets skipped, return an empty array
 };
 
