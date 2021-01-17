@@ -9,7 +9,13 @@ function twoSumOptimal(array, targetSum) {
 
     // while loop to execute while (left) is < (right)
 
-    
+        // In the while loop, create a variable for
+        // currentSum
+        
+        // include an if statement to compare
+        // the (currentSum) to (targetSum)
+
+    // if the code gets skipped, return an empty array
 };
 
 
