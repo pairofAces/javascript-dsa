@@ -6,6 +6,10 @@ function twoSumOptimal(array, targetSum) {
     // sort the array from small to large
 
     // create variables for left and right pointers
+
+    // while loop to execute while (left) is < (right)
+
+    
 };
 
 
