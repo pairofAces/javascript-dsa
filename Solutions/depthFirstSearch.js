@@ -18,7 +18,10 @@
     // where (V) represents each (Node) on the graph as '(V)ertices' on a graph.
     // (E) represents the edges of the lines connecting each (V) vertices. 
 
-// Space Complexity:
+// Space Complexity: O(V)
+    // where (V) represents each (Node) on the graph.
+
+    // 
     
 class Node {
     constructor(name) {
