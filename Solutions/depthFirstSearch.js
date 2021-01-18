@@ -15,13 +15,18 @@
     // calls are made
 
 // Time Complexity: O(V + E)
-    // where (V) represents each (Node) on the graph as '(V)ertices' on a graph.
-    // (E) represents the edges of the lines connecting each (V) vertices. 
+    // where (V) represents each (Node) on the graph as '(V)ertices'
+    // on a graph. (E) represents the edges of the lines connecting
+    // each (V) vertices. 
 
 // Space Complexity: O(V)
     // where (V) represents each (Node) on the graph.
 
-    // 
+    // Since the Question was asking to create a function where
+    // the names of each (Node) can be stored into an array:
+        // The Space-Complexity would be dependant on the 
+        // length of the graph (how many Nodes there are)
+            // Therefore -> O(V)
     
 class Node {
     constructor(name) {
