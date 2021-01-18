@@ -31,6 +31,9 @@ class Node {
     depthFirstSearch(array) {
         array.push(this.name);
         // insert for loop for each child in 'this.children'
+        for (const child of this.children) {
+            child.depthFirstSearch(array);
+        }
     };
 
 }
