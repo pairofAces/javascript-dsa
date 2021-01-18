@@ -28,11 +28,8 @@ class Node {
         return this;
     };
 
-    // In order to work with this function, I can make a
-    // helper function -> depthSearchHelper
     depthFirstSearch(array) {
-        this.depthSearchHelper(this, array)
-        return array;
+        
     };
 
 }
