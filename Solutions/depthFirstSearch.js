@@ -29,7 +29,8 @@ class Node {
     };
 
     depthFirstSearch(array) {
-        
+        array.push(this.name);
+        // insert for loop for each child in 'this.children'
     };
 
 }
