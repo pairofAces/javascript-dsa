@@ -4,15 +4,12 @@
 // children nodes. When put together, nodes form an acyclic
 // tree-like structure.
 
-// Quick explanation of the code: (depthFirstSearch & the helper)
+// Quick explanation of the code: (depthFirstSearch)
     // when the function hits the node:
         // - add the node's name to the results array
     // Then, check if a node has children
-        // If yes:
-            //  call depthSearchHelper on each child
-    
-    // invoke the helper to each node while passing the 
-    // results array into each function call
+        // for each child in (this.children):
+            // invoke the (depthFirstSearch) function on each child
 
     // array is finally returned after all the recursive
     // calls are made
