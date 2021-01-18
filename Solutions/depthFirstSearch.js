@@ -14,7 +14,9 @@
     // array is finally returned after all the recursive
     // calls are made
 
-// Time Complexity: 
+// Time Complexity: O(V + E)
+    // where (V) represents each (Node) on the graph as '(V)ertices' on a graph.
+    // 
 
 // Space Complexity:
     
