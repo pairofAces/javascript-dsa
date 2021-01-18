@@ -34,6 +34,7 @@ class Node {
         for (const child of this.children) {
             child.depthFirstSearch(array);
         }
+        return array;
     };
 
 }
