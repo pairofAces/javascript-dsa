@@ -22,7 +22,8 @@ function getNthFib(n) {
     } else if (n === 1) {
         return 0;
     } else {
-        
+        // the (nth) number is the SUM of the 
+        // (n - 1)th & (n - 2)th numbers
         return getNthFib(n - 1) + getNthFib(n - 2);
     }
 };
