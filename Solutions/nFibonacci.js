@@ -15,6 +15,13 @@
         // getNthFib(1) = F0
         // getNthFib(2) = F1
 
+// Solution using if/else statement
 function getNthFib(n) {
-    
+    if (n === 2) {
+
+    } else if (n === 1) {
+
+    } else {
+        
+    }
 };
