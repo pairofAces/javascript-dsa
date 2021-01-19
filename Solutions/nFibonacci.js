@@ -7,3 +7,10 @@
 
     // Write a function that takes in an integer (n) and 
     // returns the (nth) Fibonacci number. 
+
+// NOTE: 
+// Fibonacci sequence is often defined with its first 2 numbers
+// as (F0 = 0) and (F1 = 1).
+    // Therefore: 
+        // getNthFib(1) = F0
+        // getNthFib(2) = F1
