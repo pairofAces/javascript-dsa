@@ -16,5 +16,5 @@
         // getNthFib(2) = F1
 
 function getNthFib(n) {
-
+    
 };
