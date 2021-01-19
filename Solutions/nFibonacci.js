@@ -14,3 +14,7 @@
     // Therefore: 
         // getNthFib(1) = F0
         // getNthFib(2) = F1
+
+function getNthFib(n) {
+
+};
