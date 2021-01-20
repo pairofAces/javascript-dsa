@@ -21,9 +21,11 @@
 
 
 // The following solution is:
-    // Time Complexity:
+    // Time Complexity: O(n)
+        // where (n) is the total number of elements in an array
 
-    // Space Complexity: 
+    // Space Complexity: O(d)
+        // 
 function productSum(array, multiplier = 1) {
     let sum = 0;
     for (const ele of array) {
