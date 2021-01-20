@@ -10,3 +10,12 @@
         // The depth of [] = 1
         // The depth of [[]] = 2
         // The depth of [[[]]] = 3
+
+    // Therefore:
+        // The Product Sum of:
+            // [x, y] = x + y
+            
+            // [x, [y, z]] = x + 2(y + z)
+
+            // [x, [y, [z]]] = x + 2(y + 3z)
+            
