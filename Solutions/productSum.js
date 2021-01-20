@@ -23,9 +23,10 @@ function productSum(array, multiplier = 1) {
     let sum = 0;
     for (const ele of array) {
         if (Array.isArray(ele)) {
-
+            sum += productSum(ele, multiplier + 1);
         } else {
-            
+            sum += ele;
         }
     }
+    return sum * multiplier;
 };
