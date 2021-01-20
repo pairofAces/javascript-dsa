@@ -18,4 +18,7 @@
             // [x, [y, z]] = x + 2(y + z)
 
             // [x, [y, [z]]] = x + 2(y + 3z)
-            
+
+function productSum(array, multiplier = 1) {
+
+};
