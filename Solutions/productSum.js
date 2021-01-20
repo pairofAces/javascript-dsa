@@ -30,6 +30,8 @@
 function productSum(array, multiplier = 1) {
     let sum = 0;
     for (const ele of array) {
+        // By using the (Array.isArray(ele)) below, I can make
+        // sure whether an item is a list or an integer
         if (Array.isArray(ele)) {
             sum += productSum(ele, multiplier + 1);
         } else {
