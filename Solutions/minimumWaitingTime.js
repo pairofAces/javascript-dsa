@@ -22,4 +22,10 @@
 function minimumWaitingTime(queries) {
     // Sort the Query
     queries.sort((a, b) => a - b);
+    
+    // create var to represent the total time
+    let totalWaitingTime = 0;
+    
+    // create a for loop to iterate through the queries
+    
 };
