@@ -20,5 +20,6 @@
             // duration of the 1st query.
 
 function minimumWaitingTime(queries) {
-    
+    // Sort the Query
+    queries.sort((a, b) => a - b);
 };
