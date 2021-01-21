@@ -27,5 +27,9 @@ function minimumWaitingTime(queries) {
     let totalWaitingTime = 0;
     
     // create a for loop to iterate through the queries
-    
+    for (let i = 0; i < queries.length; i++) {
+
+    }
+
+    // return the totalWaitingTime variable
 };
