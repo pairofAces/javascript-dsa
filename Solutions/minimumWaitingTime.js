@@ -32,4 +32,5 @@ function minimumWaitingTime(queries) {
     }
 
     // return the totalWaitingTime variable
+    return totalWaitingTime;
 };
