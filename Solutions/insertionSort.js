@@ -47,3 +47,13 @@ function selectionSort(array) {
     }
     return sorted;
 };
+
+// ------------------------------------------------------------------
+
+// Big O of this algorithm explained
+
+// (removeMin) helper function has a cost of (n), since the function
+// is (n) since we have to call the function by the length of the
+// array... which is (n)
+
+// (selectionSort) function costs (n^2)
