@@ -7,3 +7,16 @@
 let unsortedArray = [5, 6, -1, 1, 3];
 
 let sortedArray = [];
+
+// aspirational code 
+removeMin(unsortedArray, sortedArray);
+sortedArray;
+// [-1]
+unsortedArray;
+// [5, 6, 1, 3]
+
+removeMin(unsortedArray, sortedArray);
+sortedArray;
+// [-1, 1]
+unsortedArray;
+// [5, 6, 3]
