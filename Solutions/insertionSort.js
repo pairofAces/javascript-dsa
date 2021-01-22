@@ -42,7 +42,8 @@ function selectionSort(array) {
     let newMin; 
     let sorted = [];
     while (array.length != 0) {
-
+        newMin = removeMin(array);
+        sorted.push(newMin);
     }
     return sorted;
 };
