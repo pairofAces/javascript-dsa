@@ -20,3 +20,9 @@ sortedArray;
 // [-1, 1]
 unsortedArray;
 // [5, 6, 3]
+
+// create the aspirational function "removeMin"
+function removeMin(array) {
+    let min = array[0];
+    let minI = 0;
+};
