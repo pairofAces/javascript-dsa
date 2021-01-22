@@ -31,4 +31,6 @@ function removeMin(array) {
             minI = i;
         }
     }
+    array.splice(minI, 1);
+    return min;
 };
