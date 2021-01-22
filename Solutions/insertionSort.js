@@ -4,3 +4,6 @@
 
 // Insertion Sort
 
+let unsortedArray = [5, 6, -1, 1, 3];
+
+let sortedArray = [];
