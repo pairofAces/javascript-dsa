@@ -34,3 +34,15 @@ function removeMin(array) {
     array.splice(minI, 1);
     return min;
 };
+
+// -----------------------------------
+
+// Selection sort method
+function selectionSort(array) {
+    let newMin; 
+    let sorted = [];
+    while (array.length != 0) {
+
+    }
+    return sorted;
+};
