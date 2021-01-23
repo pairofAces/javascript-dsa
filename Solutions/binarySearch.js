@@ -19,5 +19,11 @@ function binarySearchHelper(array, target, left, right) {
     if (left > right) return -1;
     const middle = Math.floor((left + right) / 2);
     const match = array[middle];
-    
+    if (target === match) {
+
+    } else if (target < match) {
+
+    } else {
+
+    };
 };
