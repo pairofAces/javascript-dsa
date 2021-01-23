@@ -11,5 +11,10 @@
         // return -1
 
 function binarySearch(array, target) {
-    
-}
+    // create helper function 
+    // return binarySearchHelper()
+};
+
+function binarySearchHelper(array, target, left, right) {
+
+};
