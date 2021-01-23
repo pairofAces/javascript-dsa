@@ -12,7 +12,7 @@
 
 function binarySearch(array, target) {
     // create helper function 
-    // return binarySearchHelper()
+    return binarySearchHelper(array, target, 0, array.length - 1);
 };
 
 function binarySearchHelper(array, target, left, right) {
