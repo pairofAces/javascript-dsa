@@ -16,5 +16,8 @@ function binarySearch(array, target) {
 };
 
 function binarySearchHelper(array, target, left, right) {
-
+    if (left > right) return -1;
+    const middle = Math.floor((left + right) / 2);
+    const match = array[middle];
+    
 };
