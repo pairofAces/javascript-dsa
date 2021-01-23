@@ -20,10 +20,12 @@ function binarySearchHelper(array, target, left, right) {
     const middle = Math.floor((left + right) / 2);
     const match = array[middle];
     if (target === match) {
-
+        return middle;
     } else if (target < match) {
-
+        // iterate through the helper
+        return binarySearchHelper(array, target, left, middle - 1);
     } else {
-
+        // iterate through the helper
+        return binarySearchHelper(array, target, middle + 1, right);
     };
 };
