@@ -9,3 +9,7 @@
         // return the index of the element
     // If not:
         // return -1
+
+function binarySearch(array, target) {
+    
+}
