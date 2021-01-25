@@ -34,3 +34,13 @@ function findMinAndRemove(first, second) {
         return second.shift();
     }
 };
+
+// create the merge function
+function merge(first, second) {
+    let sorted = [];
+    while (first.length != 0 && second.length != 0) {
+        let currentMin = findMinAndRemove(first, second);
+        sorted.push(currentMin);
+    }
+    return sorted.concat(first).concat(second);
+};
