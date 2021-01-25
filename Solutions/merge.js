@@ -18,3 +18,11 @@ function findMin(first, second) {
         return minSecond;
     }
 };
+
+// create a function that will use the 'findMin' function to find
+// the minimum of the 2 subarrays, remove it, and then add it into
+// a new 'result array'.
+
+function findMinAndRemove(first, second) {
+
+};
