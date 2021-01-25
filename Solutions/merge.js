@@ -19,10 +19,18 @@ function findMin(first, second) {
     }
 };
 
-// create a function that will use the 'findMin' function to find
+// create a function that will use the functionality of the 
+// 'findMin' function to find
 // the minimum of the 2 subarrays, remove it, and then add it into
 // a new 'result array'.
 
 function findMinAndRemove(first, second) {
+    let minFirst = first[0];
+    let minSecond = second[0];
 
+    if (minFirst < minSecond) {
+        return first.shift();
+    } else {
+        return second.shift();
+    }
 };
