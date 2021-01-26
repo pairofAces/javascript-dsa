@@ -9,5 +9,9 @@
 function findThreeLargestNums(array) {
     // initialize with an array of null values
     let threeLargest = [null, null, null];
-    
+
+    // create a for loop for every number in the array
+    for (const num of array) {
+
+    }
 };
