@@ -37,6 +37,11 @@ function updateLargest(threeLargest, num) {
 function shiftAndUpdate(array, num, idx) {
     // create for loop to iterate over the arrays
     for (let i = 0; i <= idx; i++) {
-        
+        // compare (i) to (idx)
+        if (i === idx) {
+            array[i] = num;
+        } else {
+            array[i] = array[i + 1];
+        }
     }
 };
