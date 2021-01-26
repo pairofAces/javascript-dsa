@@ -20,5 +20,15 @@ function findThreeLargestNums(array) {
 
 // create the updateLargest helper method
 function updateLargest(threeLargest, num) {
-
+    // conditional to compare 3rd number in threeLargest array
+    // to num
+    if (threeLargest[2] === null || num > threeLargest[2]) {
+        // another aspirational code to shift the numbers in the 
+        // threeLargest array
+        shiftAndUpdate() // need to work on this
+    } else if (threeLargest[1] === null || num > threeLargest[1]) {
+        shiftAndUpdate() // need to work on this
+    } else if (threeLargest[0] === null || num > threeLargest[0]) {
+        shiftAndUpdate() // need to work on this
+    };
 };
