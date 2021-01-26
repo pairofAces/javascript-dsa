@@ -32,3 +32,8 @@ function updateLargest(threeLargest, num) {
         shiftAndUpdate() // need to work on this
     };
 };
+
+// create the shiftAndUpdate method
+function shiftAndUpdate() {
+
+};
