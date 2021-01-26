@@ -49,3 +49,10 @@ function merge(first, second) {
 
 // The worst case scenario of the merge function would be going through
 // the while loop for each element in each subarray. 
+
+    // Can't go through the while loop more than the total number 
+    // of elements in both arrays. Therefore, the cost of (merging)
+    // two subarrays is (first.length + second.length)
+
+        // The big O of the merge function is the length of the 
+        // two subarrays
