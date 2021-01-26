@@ -15,4 +15,10 @@ function findThreeLargestNums(array) {
         // aspirational code - Helper method
         updateLargest(threeLargest, num);
     }
+    return threeLargest;
+};
+
+// create the updateLargest helper method
+function updateLargest(threeLargest, num) {
+
 };
