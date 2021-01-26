@@ -7,5 +7,7 @@
     // note -> Do not sort the input array
 
 function findThreeLargestNums(array) {
-
+    // initialize with an array of null values
+    let threeLargest = [null, null, null];
+    
 };
