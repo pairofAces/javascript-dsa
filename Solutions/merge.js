@@ -44,3 +44,8 @@ function merge(first, second) {
     }
     return sorted.concat(first).concat(second);
 };
+// -----------------------------------------------------------------------
+// Big O for merge function
+
+// The worst case scenario of the merge function would be going through
+// the while loop for each element in each subarray. 
