@@ -25,15 +25,18 @@ function updateLargest(threeLargest, num) {
     if (threeLargest[2] === null || num > threeLargest[2]) {
         // another aspirational code to shift the numbers in the 
         // threeLargest array
-        shiftAndUpdate() // need to work on this
+        shiftAndUpdate(threeLargest, num, idx) // need to work on this
     } else if (threeLargest[1] === null || num > threeLargest[1]) {
-        shiftAndUpdate() // need to work on this
+        shiftAndUpdate(threeLargest, num, idx) // need to work on this
     } else if (threeLargest[0] === null || num > threeLargest[0]) {
-        shiftAndUpdate() // need to work on this
+        shiftAndUpdate(threeLargest, num, idx) // need to work on this
     };
 };
 
 // create the shiftAndUpdate method
-function shiftAndUpdate() {
-
+function shiftAndUpdate(array, num, idx) {
+    // create for loop to iterate over the arrays
+    for (let i = 0; i <= idx; i++) {
+        
+    }
 };
