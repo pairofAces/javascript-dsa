@@ -4,5 +4,7 @@
 // a sorted version. use the bubble sort method.
 
 function bubbleSort(array) {
-
+    // create variables
+    let sorted = false;
+    let counter = 0;
 };
