@@ -7,4 +7,13 @@ function bubbleSort(array) {
     // create variables
     let sorted = false;
     let counter = 0;
+
+    // while loop for while sorted is true
+    while (!sorted) {
+        sorted = true;
+        // create for loop for the length of (the array - 1 - counter)
+        for (let i = 0; i < array.length - 1 - counter; i++) {
+            
+        }
+    }
 };
