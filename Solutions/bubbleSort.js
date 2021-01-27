@@ -32,5 +32,8 @@ function bubbleSort(array) {
 
 // create the swap helper function
 function swap(i, j, array) {
-
+    // create temporary variable
+    const temp = array[j];
+    array[j] = array[i];
+    array[i] = temp;
 };
