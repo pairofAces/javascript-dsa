@@ -17,7 +17,8 @@ function bubbleSort(array) {
             // element is greater than the element at 
             // array[i + 1]
             if (array[i] > array[i + 1]) {
-                // use the swap function to swap the elements within the array
+                // use the swap function (helper) to swap the
+                // elements within the array
                 swap(i, i + 1, array);
                 sorted = false;
             }
@@ -25,4 +26,11 @@ function bubbleSort(array) {
         // increment the counter
         counter ++;
     }
+    // return the final sorted array
+    return array;
+};
+
+// create the swap helper function
+function swap(i, j, array) {
+
 };
