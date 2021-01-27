@@ -13,7 +13,12 @@ function bubbleSort(array) {
         sorted = true;
         // create for loop for the length of (the array - 1 - counter)
         for (let i = 0; i < array.length - 1 - counter; i++) {
-            
+            // create an if statement to check if the array[i]
+            // element is greater than the element at 
+            // array[i + 1]
+            if (array[i] > array[i + 1]) {
+                
+            }
         }
     }
 };
