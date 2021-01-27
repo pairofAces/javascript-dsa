@@ -17,8 +17,12 @@ function bubbleSort(array) {
             // element is greater than the element at 
             // array[i + 1]
             if (array[i] > array[i + 1]) {
-                
+                // use the swap function to swap the elements within the array
+                swap(i, i + 1, array);
+                sorted = false;
             }
         }
+        // increment the counter
+        counter ++;
     }
 };
