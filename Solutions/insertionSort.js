@@ -81,4 +81,5 @@ function insertionSort(array) {
             j -= 1;
         }
     }
+    return array;
 };
