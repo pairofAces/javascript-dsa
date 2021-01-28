@@ -73,6 +73,10 @@ function selectionSort(array) {
 function insertionSort(array) {
     // use a for loop to iterate through the array
     for (let i = 0; i < array.length; i++) {
-
+        // create a variable to "swap" elements
+        let j = i;
+        while (j > 0 && array[j] < array[j - 1]) {
+            
+        }
     }
 };
