@@ -76,7 +76,9 @@ function insertionSort(array) {
         // create a variable to "swap" elements
         let j = i;
         while (j > 0 && array[j] < array[j - 1]) {
-            
+            // aspirational code (helper function)
+            change(j, j - 1, array);
+            j -= 1;
         }
     }
 };
