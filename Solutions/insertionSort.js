@@ -69,3 +69,10 @@ function selectionSort(array) {
 // sample:
     // input: [8, 5, 2, 9, 5, 6, 3]
     // output: [2, 3, 5, 5, 6, 8, 9]
+
+function insertionSort(array) {
+    // use a for loop to iterate through the array
+    for (let i = 0; i < array.length; i++) {
+
+    }
+};
