@@ -83,3 +83,8 @@ function insertionSort(array) {
     }
     return array;
 };
+
+// create the helper function 
+function change(i, j - 1, array) {
+    
+};
