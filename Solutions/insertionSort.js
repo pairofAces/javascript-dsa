@@ -92,3 +92,5 @@ function change(i, j, array) {
     array[j] = array[i];
     array[i] = temp;
 };
+
+// Time Complexity: worst is O(n^2), best is O(n)
