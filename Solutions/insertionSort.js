@@ -1,3 +1,5 @@
+// Part 1, (part 2 at the end)
+
 // adding notes for the simple sorting algorithm that
 // creates the final sorted array, or list, one
 // element at a time
@@ -48,7 +50,6 @@ function selectionSort(array) {
     return sorted;
 };
 
-// ------------------------------------------------------------------
 
 // Big O of this algorithm explained
 
@@ -57,3 +58,11 @@ function selectionSort(array) {
 // array... which is (n)
 
 // (selectionSort) function costs (n^2)
+
+// ------------------------------------------------------------------
+
+// Part 2 - Another version of the question
+
+// Write a function that takes an array of integers and returns a
+// sorted version of the array. Use the insertion sort algorithm.
+
