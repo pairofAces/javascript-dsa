@@ -85,6 +85,7 @@ function insertionSort(array) {
 };
 
 // create the helper function 
-function change(i, j - 1, array) {
-    
+function change(i, j, array) {
+    // create variable for the element at array[j]
+    const temp = array[j]; 
 };
