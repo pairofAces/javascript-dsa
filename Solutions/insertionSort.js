@@ -37,7 +37,6 @@ function removeMin(array) {
     return min;
 };
 
-// -----------------------------------
 
 // Selection sort method
 function selectionSort(array) {
@@ -49,7 +48,6 @@ function selectionSort(array) {
     }
     return sorted;
 };
-
 
 // Big O of this algorithm explained
 
