@@ -46,3 +46,7 @@ function swap(i, j, array) {
     array[j] = array[i];
     array[i] = temp;
 };
+
+// Time Complexity
+// Worst case scenario: O(n^2)
+
