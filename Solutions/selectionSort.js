@@ -18,6 +18,8 @@ function selectionSort(array) {
 
         // use a for loop to compare the startIdx and
         // the smallestIdx. 
-        
+        for (let i = startIdx + 1; i < array.length; i++) {
+            
+        }
     }
 }
