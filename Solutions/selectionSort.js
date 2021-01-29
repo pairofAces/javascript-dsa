@@ -36,6 +36,13 @@ function selectionSort(array) {
 };
 
 // create the helper function
-function swap() {
+function swap(i, j, array) {
+    // create a temp variable equal to the element at j
+        // so it can be used to successfully swap
+    const temp = array[j];
 
+    // swap the elements by making the elements at each index
+    // equal to the other
+    array[j] = array[i];
+    array[i] = temp;
 };
