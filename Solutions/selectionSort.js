@@ -33,4 +33,9 @@ function selectionSort(array) {
     }
     // return the final array;
     return array;
-}
+};
+
+// create the helper function
+function swap() {
+
+};
