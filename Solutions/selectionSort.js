@@ -19,7 +19,12 @@ function selectionSort(array) {
         // use a for loop to compare the startIdx and
         // the smallestIdx. 
         for (let i = startIdx + 1; i < array.length; i++) {
-            
+            // use an if statement to compare the i (which is the
+            // startIdx)  to the number attached to the smallestIdx
+            if (array[smallestIdx] > array[i]) {
+                // then the smallestIdx will be i
+                smallestIdx = i;
+            }
         }
     }
 }
