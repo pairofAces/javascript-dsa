@@ -28,7 +28,7 @@ function selectionSort(array) {
         }
         // helper funciton to swap the elements at startIdx and 
         // smallestIdx
-        swap() //aspirational code;
+        swap(startIdx, smallestIdx, array); //aspirational code;
         startIdx++;
     }
     // return the final array;
