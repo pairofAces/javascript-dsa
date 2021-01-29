@@ -50,3 +50,5 @@ function swap(i, j, array) {
 // Time Complexity
 // Worst case scenario: O(n^2)
 
+// Space Complexity
+// Worst case scenario: O(1) - Constant space 
