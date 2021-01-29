@@ -26,5 +26,11 @@ function selectionSort(array) {
                 smallestIdx = i;
             }
         }
+        // helper funciton to swap the elements at startIdx and 
+        // smallestIdx
+        swap() //aspirational code;
+        startIdx++;
     }
+    // return the final array;
+    return array;
 }
