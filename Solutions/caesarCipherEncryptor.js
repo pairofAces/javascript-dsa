@@ -8,5 +8,7 @@
     // k is the key
 
 function caesarCipherEncryptor(string, key) {
-
+    const newLetters = [];
+    const newKey = key % 26;
+    const alphabet = 'abcdeghijklmnopqrstuvwxyz'.split('');
 };
