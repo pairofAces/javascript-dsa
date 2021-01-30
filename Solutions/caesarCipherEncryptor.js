@@ -6,3 +6,7 @@
 // Write a function that returns a new string by shifting every letter
 // in the original string by k positions in the alphabet. 
     // k is the key
+
+function caesarCipherEncryptor(string, key) {
+
+};
