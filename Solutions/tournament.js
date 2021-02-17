@@ -4,5 +4,8 @@
 // against each other and an array that contains the results of each competition
 
 function tournamentWinner(competitions, results) {
-    return '';
+    // create a variable for the current best team and 
+    let currentBestTeam = '';
+    // create an object with the currentBestTeam set to 0
+    const scores = {[currentBestTeam]: 0};
 };
