@@ -8,4 +8,8 @@ function tournamentWinner(competitions, results) {
     let currentBestTeam = '';
     // create an object with the currentBestTeam set to 0
     const scores = {[currentBestTeam]: 0};
+
+    for(let i = 0; i < competitions.length; i++) {
+        
+    }
 };
