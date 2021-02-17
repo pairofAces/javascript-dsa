@@ -10,6 +10,7 @@ function tournamentWinner(competitions, results) {
     const scores = {[currentBestTeam]: 0};
 
     for(let i = 0; i < competitions.length; i++) {
-        
+        // create a variable to represent the result
+        const result = results[i];
     }
 };
