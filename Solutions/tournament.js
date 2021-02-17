@@ -12,5 +12,8 @@ function tournamentWinner(competitions, results) {
     for(let i = 0; i < competitions.length; i++) {
         // create a variable to represent the result
         const result = results[i];
+        // create variables for home/away team within
+        // the competitions array at position 'i'
+        const [homeTeam, awayTeam] = competitions[i];
     }
 };
