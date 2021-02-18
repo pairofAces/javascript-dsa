@@ -32,6 +32,10 @@ function tournamentWinner(competitions, results) {
 };
 
 // create the helper function
-function updateScores(){
-
+function updateScores(team, points, scores) {
+    // conditional logic in case there is no teams in the scores
+    if (!(team in scores)) {
+        scores[team] = 0;
+    }
+    // increment the team in scores by the amount of 'points'
 };
