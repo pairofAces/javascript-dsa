@@ -15,5 +15,10 @@ function tournamentWinner(competitions, results) {
         // create variables for home/away team within
         // the competitions array at position 'i'
         const [homeTeam, awayTeam] = competitions[i];
+
+        // create a winning team variable -> ternary
+        const winningTeam = results === HOME_TEAM_WON ? homeTeam : awayTeam;
+
+        // aspirational code -> helper function
     }
 };
