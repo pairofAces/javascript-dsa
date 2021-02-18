@@ -20,5 +20,13 @@ function tournamentWinner(competitions, results) {
         const winningTeam = results === HOME_TEAM_WON ? homeTeam : awayTeam;
 
         // aspirational code -> helper function
+        updateScores(winningTeam, 3, scores);
+
+        // create conditional logic to set the current winning team
+        // to the winningTeam variable
+        if (scores[winningTeam] > scores[currentBestTeam]) {
+            currentBestTeam = winningTeam;
+        }
     }
+    
 };
