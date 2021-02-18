@@ -32,3 +32,6 @@ function tournamentWinner(competitions, results) {
 };
 
 // create the helper function
+function updateScores(){
+
+};
