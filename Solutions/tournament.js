@@ -28,5 +28,7 @@ function tournamentWinner(competitions, results) {
             currentBestTeam = winningTeam;
         }
     }
-    
+    return currentBestTeam;
 };
+
+// create the helper function
