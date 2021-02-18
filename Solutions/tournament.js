@@ -38,4 +38,5 @@ function updateScores(team, points, scores) {
         scores[team] = 0;
     }
     // increment the team in scores by the amount of 'points'
+    scores[team] += points;
 };
