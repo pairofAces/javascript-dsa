@@ -13,5 +13,7 @@ const runningSum = function(nums) {
     let sum = 0;
 
     // use a for loop to traverse through the array
+    for (let i = 0; i < nums.length; i++) {
 
+    };
 };
