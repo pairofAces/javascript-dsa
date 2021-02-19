@@ -6,5 +6,12 @@
     // running sum: runningSum[i] = sum(nums[0]...nums[i])
 
 const runningSum = function(nums) {
+    // since I need to output an array, create an empty
+    // array to push elements into
+    let result = [];
+    // create a variable to represent the sum
+    let sum = 0;
+
+    // use a for loop to traverse through the array
 
 };
