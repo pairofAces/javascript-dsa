@@ -5,6 +5,13 @@
 
     // running sum: runningSum[i] = sum(nums[0]...nums[i])
 
+
+// Solution 1: 
+    // Time Complexity: O(n) -> since an array of (n)
+    // elements needs to be traversed
+
+    // Space Complexity: O(n) -> since a new resulting 
+    // array is created
 const runningSum = function(nums) {
     // since I need to output an array, create an empty
     // array to push elements into
@@ -21,3 +28,5 @@ const runningSum = function(nums) {
     // return the resulting array
     return result;
 };
+
+// Solution 2
