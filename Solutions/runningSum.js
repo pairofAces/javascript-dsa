@@ -18,5 +18,6 @@ const runningSum = function(nums) {
         sum += nums[i];
         result.push(sum);
     };
-    
+    // return the resulting array
+    return result;
 };
