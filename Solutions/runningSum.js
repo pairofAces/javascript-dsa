@@ -3,7 +3,7 @@
 // Prompt:
     // given an array (nums)-> return a running sum of (nums)
 
-    // running sum: runningSum[i] = sum(nums[0]_nums[i])
+    // running sum: runningSum[i] = sum(nums[0]...nums[i])
 
 const runningSum = function(nums) {
 
