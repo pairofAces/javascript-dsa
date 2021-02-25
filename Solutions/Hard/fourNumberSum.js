@@ -9,5 +9,7 @@
     // if no quadruplets -> return an empty array
 
 function fourNumberSum(array, targetSum) {
-
+    // create the containers
+    const allPairSums = {};
+    const quadruplets = [];
 }
