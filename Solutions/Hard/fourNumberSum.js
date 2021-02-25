@@ -12,4 +12,8 @@ function fourNumberSum(array, targetSum) {
     // create the containers
     const allPairSums = {};
     const quadruplets = [];
+    // initiate for loop
+    for (let i = 1; i < array.length - 1; i++) {
+        
+    }
 }
