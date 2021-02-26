@@ -22,8 +22,13 @@ function fourNumberSum(array, targetSum) {
             // use an if statement to check if the difference
             // is in the allPairSums map
             if (difference in allPairSums) {
-                
+                // initiate  a for loop for each 'pair' in 
+                // allPairSums
+                for (const pair of allPairSums[difference]) {
+                    quadruplets.push(pair.concat([array[i], array[j]]))
+                }
             }
         }
+        
     }
 }
