@@ -19,6 +19,11 @@ function fourNumberSum(array, targetSum) {
             // create the currentSum and difference variables
             const currentSum = array[i] + array[j];
             const difference = targetSum - currentSum;
+            // use an if statement to check if the difference
+            // is in the allPairSums map
+            if (difference in allPairSums) {
+                
+            }
         }
     }
 }
