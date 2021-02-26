@@ -31,7 +31,12 @@ function fourNumberSum(array, targetSum) {
         }
         // create a for loop for a pointer at index 0
         for (let k = 0; k < i; k++) {
-            
+            // create a variable for the currentSum for the 
+            // elements in the array at index i and k
+            const currentSum = array[i] + array[k];
+            if (!(currentSum in allPairSums)) {
+                
+            }
         }
     }
 }
