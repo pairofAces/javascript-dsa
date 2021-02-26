@@ -35,8 +35,11 @@ function fourNumberSum(array, targetSum) {
             // elements in the array at index i and k
             const currentSum = array[i] + array[k];
             if (!(currentSum in allPairSums)) {
-                
+                allPairSums[currentSum] = [[array[k], array[i]]];
+            } else {
+                allPairSums[currentSum].push([array[k], array[i]]);
             }
         }
     }
+    return quadruplets;
 }
