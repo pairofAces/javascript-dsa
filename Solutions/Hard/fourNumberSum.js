@@ -14,6 +14,11 @@ function fourNumberSum(array, targetSum) {
     const quadruplets = [];
     // initiate for loop
     for (let i = 1; i < array.length - 1; i++) {
-        
+        // initiate a nested for loop for the adjacent position
+        for (let j = i + 1; j < array.length; j++) {
+            // create the currentSum and difference variables
+            const currentSum = array[i] + array[j];
+            const difference = targetSum - currentSum;
+        }
     }
 }
