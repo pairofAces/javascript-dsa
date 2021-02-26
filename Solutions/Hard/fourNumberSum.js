@@ -29,6 +29,9 @@ function fourNumberSum(array, targetSum) {
                 }
             }
         }
-        
+        // create a for loop for a pointer at index 0
+        for (let k = 0; k < i; k++) {
+            
+        }
     }
 }
