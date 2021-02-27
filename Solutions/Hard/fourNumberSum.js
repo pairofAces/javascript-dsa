@@ -34,6 +34,10 @@ function fourNumberSum(array, targetSum) {
             // create a variable for the currentSum for the 
             // elements in the array at index i and k
             const currentSum = array[i] + array[k];
+            // use an if statement to check if the currentSum
+            // is in the allPairSums
+                // if there is nothing -> add the key:value pair
+                // otherwise -> push the elements that create  
             if (!(currentSum in allPairSums)) {
                 allPairSums[currentSum] = [[array[k], array[i]]];
             } else {
