@@ -10,4 +10,9 @@ function meanderingArray(array) {
     let newArray = [];
     let small = 0;
     let large = n - 1;
+    // create a variable to represent a boolean
+    let checker = true;
+    // create a for loop to iterate over the array and pushing
+    // into new array
+    
 }
