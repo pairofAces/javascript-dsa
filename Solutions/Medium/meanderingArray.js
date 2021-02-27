@@ -16,9 +16,9 @@ function meanderingArray(array) {
     // into new array
     for (let i = 0; i < n; i++) {
         if (checker) {
-
+            newArray[i] = sorted[large--];
         } else {
-            
+            newArray[i] = sorted[small++];
         }
     }
 }
