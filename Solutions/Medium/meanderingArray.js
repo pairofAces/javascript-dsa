@@ -20,5 +20,8 @@ function meanderingArray(array) {
         } else {
             newArray[i] = sorted[small++];
         }
+        checker = !checker;
     }
+    // return the new array
+    return newArray;
 }
