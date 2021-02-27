@@ -14,5 +14,11 @@ function meanderingArray(array) {
     let checker = true;
     // create a for loop to iterate over the array and pushing
     // into new array
-    
+    for (let i = 0; i < n; i++) {
+        if (checker) {
+
+        } else {
+            
+        }
+    }
 }
