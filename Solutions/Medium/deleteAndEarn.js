@@ -13,6 +13,7 @@ const deleteAndEarn = function(nums) {
     const results = {};
     // for loop to add integers into the new map
     for (let i = 0; i < nums.length; i++) {
-        
+        // insert numbers into the created map
+        map.set(nums[i], (map.get(nums[i]) || 0) + 1);
     }
 };
