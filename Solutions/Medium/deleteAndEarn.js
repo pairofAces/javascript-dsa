@@ -8,5 +8,8 @@
     // equal to that integer +/- 1.
 // start with 0 points, return the max number of points possible
 const deleteAndEarn = function(nums) {
+    // create mew containers
+    const map = new Map();
+    const results = {};
 
 };
