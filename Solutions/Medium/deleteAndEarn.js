@@ -24,6 +24,10 @@ const deleteAndEarn = function(nums) {
     // for the previous keys and to set values in the results
     // object
     for(let i =0; u < keys.length; i++) {
+        // create a variable for the previous keys
+        const twoPrevious = keys[i] - keys[i - 1] === 1 ? keys[i - 2] : keys[i - 1];
+
+        // set values in the results object
         
     }
 };
