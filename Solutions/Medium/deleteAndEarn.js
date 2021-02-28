@@ -7,3 +7,6 @@
     // after deleting that integer, delete all equal elements
     // equal to that integer +/- 1.
 // start with 0 points, return the max number of points possible
+const deleteAndEarn = function(nums) {
+
+};
