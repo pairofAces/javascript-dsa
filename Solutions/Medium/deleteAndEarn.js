@@ -19,5 +19,11 @@ const deleteAndEarn = function(nums) {
 
     // create a keys array from the map container
     const keys = Array.from(map.keys()).sort((a, b) => a < b ? -1 : 1);
-    
+
+    // initiate another for loop to create another variable
+    // for the previous keys and to set values in the results
+    // object
+    for(let i =0; u < keys.length; i++) {
+        
+    }
 };
