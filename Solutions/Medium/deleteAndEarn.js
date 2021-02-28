@@ -11,5 +11,8 @@ const deleteAndEarn = function(nums) {
     // create mew containers
     const map = new Map();
     const results = {};
-
+    // for loop to add integers into the new map
+    for (let i = 0; i < nums.length; i++) {
+        
+    }
 };
