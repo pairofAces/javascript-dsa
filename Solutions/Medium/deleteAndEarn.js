@@ -18,5 +18,6 @@ const deleteAndEarn = function(nums) {
     }
 
     // create a keys array from the map container
+    const keys = Array.from(map.keys()).sort((a, b) => a < b ? -1 : 1);
     
 };
