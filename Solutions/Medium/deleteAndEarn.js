@@ -16,4 +16,7 @@ const deleteAndEarn = function(nums) {
         // insert numbers into the created map
         map.set(nums[i], (map.get(nums[i]) || 0) + 1);
     }
+
+    // create a keys array from the map container
+    
 };
