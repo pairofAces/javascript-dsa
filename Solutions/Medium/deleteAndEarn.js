@@ -28,6 +28,6 @@ const deleteAndEarn = function(nums) {
         const twoPrevious = keys[i] - keys[i - 1] === 1 ? keys[i - 2] : keys[i - 1];
 
         // set values in the results object
-        
+        results[keys[i]] = Math.max((twoPrevious ? results[twoPrevious] || 0 : 0) + keys[i] * map.get(keys[i]), i > 0 ? results[keys[i - 1]] || 0 : 0);
     }
 };
