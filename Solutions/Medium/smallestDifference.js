@@ -20,6 +20,14 @@ function smallestDifference(arrayOne, arrayTwo) {
     // initiate a while loop for as long as both indices are less
     // than the respected array's length
     while (idxOne < arrayOne.length && idxTwo < arrayTwo.length) {
-
+        // create variables for the 1st and 2nd numbers
+        let firstNum = arrayOne[idxOne];
+        let secondNum = arrayTwo[idxTwo];
+        // if/else conditional
+            // if (first is less than second): current is the diff and
+            // increment the (first) pointer
+            // if (first is greater than second): current is the diff
+            // and incremenet the (second) pointer
+            
     };
 }
