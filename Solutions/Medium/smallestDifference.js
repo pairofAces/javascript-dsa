@@ -17,4 +17,9 @@ function smallestDifference(arrayOne, arrayTwo) {
     let smallest = Infinity;
     let current = Infinity;
     let smallestPair = [];
+    // initiate a while loop for as long as both indices are less
+    // than the respected array's length
+    while (idxOne < arrayOne.length && idxTwo < arrayTwo.length) {
+
+    };
 }
