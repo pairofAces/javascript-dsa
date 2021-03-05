@@ -8,5 +8,8 @@
         // the number in the 1st array should be in the 1st position
         // the number in the 2nd array should be in the 2nd position
 function smallestDifference(arrayOne, arrayTwo) {
+    // first sort the arrays
+    arrayOne.sort((a, b) => a - b);
+    arrayTwo.sort((a, b) => a - b);
     
 }
