@@ -11,5 +11,10 @@ function smallestDifference(arrayOne, arrayTwo) {
     // first sort the arrays
     arrayOne.sort((a, b) => a - b);
     arrayTwo.sort((a, b) => a - b);
-    
+    // create variables for pointers/smallest number/current number
+    let idxOne = 0;
+    let idxTwo = 0;
+    let smallest = Infinity;
+    let current = Infinity;
+    let smallestPair = [];
 }
