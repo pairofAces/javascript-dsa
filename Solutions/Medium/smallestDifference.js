@@ -28,6 +28,17 @@ function smallestDifference(arrayOne, arrayTwo) {
             // increment the (first) pointer
             // if (first is greater than second): current is the diff
             // and incremenet the (second) pointer
-            
+        if (firstNum < secondNum) {
+            current = secondNum - firstNum;
+            idxOne++;
+        } else if (firstNum > secondNum) {
+            current = firstNum - secondNum;
+            idxTwo++;
+        } else {
+            // if first is = second, return the 2 numbers
+            return [firstNum, secondNum];
+        };
+        // conditional for if the smallest > current
+        
     };
 }
