@@ -39,6 +39,12 @@ function smallestDifference(arrayOne, arrayTwo) {
             return [firstNum, secondNum];
         };
         // conditional for if the smallest > current
-        
+        if (smallest > current) {
+            smallest = current;
+            smallestPair = [firstNum, secondNum];
+        }
     };
-}
+    // after getting out of the while loop, return
+    // the smallestPair array
+    return smallestPair;
+};
