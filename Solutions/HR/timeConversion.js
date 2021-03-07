@@ -15,15 +15,23 @@ function timeConversion(s) {
         // is equal to 12
             // the .substring method is useful for this
         if (s.subtsring(0,2) == "12") {
-
+            // if it is, then set the time variable to "00"
+            time = "00";
         } else {
-
+            // else the time variable will be set to whatever elememts are
+            // at the indices of 0 - 1
+            time = s.subtsring(0,2);
         }
     } else {
         if (s.subtsring(0,2) == "12") {
-
+            // if it is, the time variable will be set to the elements at
+            // indices 0 - 1
+            time = s.subtsring(0,2);
         } else {
-            
+            // else the time variable will be equal to the elements at 
+            // indices 0 - 1, and then added to 12
+                // the parseInt method will be useful
+            time = parseInt(s.subtsring(0,2), 10) + 12;
         }
     }
 };
