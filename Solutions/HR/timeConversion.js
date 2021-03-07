@@ -34,4 +34,6 @@ function timeConversion(s) {
             time = parseInt(s.subtsring(0,2), 10) + 12;
         }
     }
+    // return the final time result 
+    return time;
 };
