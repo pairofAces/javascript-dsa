@@ -5,3 +5,6 @@
 // return an array of the squares of each number sorted in
 // non-decreasing order.
 
+function sortedSquares(nums) {
+    
+};
