@@ -17,8 +17,19 @@ function sortedSquares(nums) {
     // the larger numbers last -> resulting in final sorted
     // array from least to greatest
     for (let idx = nums.length - 1; idx >= 0; idx--) {
+        // create 2 variables, one for smallest value
+        // and another for the larger value
+        const smaller = nums[smallerPointer];
+        const larger = nums[largerPointer];
 
-    }
+        // use if/else to compare the absolute values
+        // of the elements in the array
+        if (Math.abs(smaller) > Math.abs(larger)) {
+
+        } else {
+
+        };
+    };
     
     // return the sorted array
     return sortedResult;
