@@ -25,9 +25,20 @@ function sortedSquares(nums) {
         // use if/else to compare the absolute values
         // of the elements in the array
         if (Math.abs(smaller) > Math.abs(larger)) {
-
+            // if the smaller number is greater than
+            // the larger... insert the square of the 
+            // smaller number into the new array at the 
+            // current idx & increment the smallerPointer
+            sortedResult[idx] = smaller * smaller;
+            smallerPointer++;
         } else {
-
+            // ELSE if the smaller number is in fact 
+            // smaller than the larger number, insert
+            // the square of the larger number into
+            // the new array at the position of idx
+            // & decrement the largerPointer
+            sortedResult[idx] = larger * larger;
+            largerPointer--;
         };
     };
     
