@@ -11,4 +11,14 @@
 function nonConstructibleChange(coins) {
     // sort the coins array
     coins.sort((a, b) => a - b);
+
+    // create a variable for the current change
+    let currentChange = 0;
+    
+    // traverse through the array, for each coin
+    for (const coin of coins) {
+
+    }
+
+    
 };
