@@ -8,6 +8,12 @@
     // example: array = [1, 2, 5]
         // The minimum amount of change I can't create is 4.
     // If there are no coins, the minimum is 1.
+
+// Complexity Analysis
+// Time
+    // O(n log(n)) time
+// Space
+    // O(1) space
 function nonConstructibleChange(coins) {
     // sort the coins array
     coins.sort((a, b) => a - b);
