@@ -26,6 +26,7 @@ function nonConstructibleChange(coins) {
         // outside of the if statement, the currentChange
         // variable needs to be added with the current
         // coin
+        currentChange += coin;
     }
 
     // return the currentChange plus 1;
