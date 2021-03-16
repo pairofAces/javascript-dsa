@@ -17,8 +17,17 @@ function nonConstructibleChange(coins) {
     
     // traverse through the array, for each coin
     for (const coin of coins) {
+        // use an if statement to check if the coin's value is
+        // greater than (currentChange + 1)
+        if(coin > currentChange + 1) {
+            return currentChange + 1;
+        }
 
+        // outside of the if statement, the currentChange
+        // variable needs to be added with the current
+        // coin
     }
 
-    
+    // return the currentChange plus 1;
+    return currentChange + 1; 
 };
