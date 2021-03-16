@@ -8,3 +8,6 @@
     // example: array = [1, 2, 5]
         // The minimum amount of change I can't create is 4.
     // If there are no coins, the minimum is 1.
+function nonConstructibleChange(coins) {
+
+};
