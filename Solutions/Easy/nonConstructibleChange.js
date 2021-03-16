@@ -9,5 +9,6 @@
         // The minimum amount of change I can't create is 4.
     // If there are no coins, the minimum is 1.
 function nonConstructibleChange(coins) {
-
+    // sort the coins array
+    coins.sort((a, b) => a - b);
 };
