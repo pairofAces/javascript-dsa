@@ -25,6 +25,12 @@ function isMonotonic(array) {
         // initialize the index variable to 1, and then
         // compare to the element at position (index - 1)
     for (let i = 1; i < array.length; i++) {
-        
+        // use an if statement to compare the elements
+        if (array[i] < array[i - 1]) {
+
+        }
+        if (array[i] > array[i - 1]) {
+            
+        }
     }
 };
