@@ -19,4 +19,12 @@ function isMonotonic(array) {
     // create boolean variables
     let isNonIncreasing = true;
     let isNonDecreasing = true; 
+
+    // use a for loop to iterate through the array
+        // In order to compare consecutive elements,
+        // initialize the index variable to 1, and then
+        // compare to the element at position (index - 1)
+    for (let i = 1; i < array.length; i++) {
+        
+    }
 };
