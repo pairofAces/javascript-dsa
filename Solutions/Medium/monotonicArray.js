@@ -15,6 +15,11 @@
 
 // Note -> empty arrays and array's of 1 element are monotonic
 
+// Solution 1
+    // Complexity Analysis
+        // Time Complexity: O(n) time, where (n) is the length of the array
+        // Space Complexity: O(1) constant space
+        
 function isMonotonic(array) {
     // create boolean variables
     let isNonIncreasing = true;
