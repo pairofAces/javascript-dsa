@@ -16,5 +16,7 @@
 // Note -> empty arrays and array's of 1 element are monotonic
 
 function isMonotonic(array) {
-
+    // create boolean variables
+    let isNonIncreasing = true;
+    let isNonDecreasing = true; 
 };
