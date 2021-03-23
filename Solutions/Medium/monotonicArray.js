@@ -33,4 +33,7 @@ function isMonotonic(array) {
             isNonIncreasing = false;
         }
     }
+    // after the for loop, return the value of either 
+    // isNonIncreasing OR isNondecreasing
+    return isNonIncreasing || isNonDecreasing;
 };
