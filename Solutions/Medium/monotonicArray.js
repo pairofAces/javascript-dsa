@@ -15,3 +15,6 @@
 
 // Note -> empty arrays and array's of 1 element are monotonic
 
+function isMonotonic(array) {
+
+};
