@@ -27,10 +27,10 @@ function isMonotonic(array) {
     for (let i = 1; i < array.length; i++) {
         // use an if statement to compare the elements
         if (array[i] < array[i - 1]) {
-
+            isNonDecreasing = false;
         }
         if (array[i] > array[i - 1]) {
-            
+            isNonIncreasing = false;
         }
     }
 };
