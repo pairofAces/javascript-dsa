@@ -11,9 +11,19 @@
 // the nodes' names in the input array and then returns it.
 
 class Node {
+    // initiate the class with the parameters
     constructor(name) {
         this.name = name;
         this.children = [];
     }
-    
+
+    // create a class method to add a child
+    addChild(name) {
+
+    }
+
+    // create a class methhod for BFS
+    breadthFirstSearch(array) {
+        
+    }
 }
