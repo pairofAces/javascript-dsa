@@ -19,7 +19,8 @@ class Node {
 
     // create a class method to add a child
     addChild(name) {
-
+        this.children.push(new Node(name));
+        return this;
     }
 
     // create a class methhod for BFS
