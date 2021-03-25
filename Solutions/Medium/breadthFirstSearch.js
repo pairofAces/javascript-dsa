@@ -25,13 +25,17 @@ class Node {
 
     // create a class methhod for BFS
     breadthFirstSearch(array) {
-        // first create a queue variable with "this" array input
+        // first create a queue variable with "this" Node
         const queue = [this];
 
         // use a while loop for as long as the length of the queue
         // is greater than 0
         while (queue.length > 0) {
-            
+            // create a variable "current" that will be the value of 
+            // what's in the queue
+                // which is a Node (The Node has a name attribute)
+            const current = queue.shift();
+            array.push(current.name)
         }
     }
 }
