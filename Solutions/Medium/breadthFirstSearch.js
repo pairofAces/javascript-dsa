@@ -25,6 +25,7 @@ class Node {
 
     // create a class methhod for BFS
     breadthFirstSearch(array) {
-        
+        // first create a queue variable with "this" array input
+        const queue = [this];
     }
 }
