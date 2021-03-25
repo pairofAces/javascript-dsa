@@ -40,8 +40,13 @@ class Node {
             // use a for loop for every child element of current's
             // children
             for (const child of current.children) {
-                
+                // push the child into the queue variable
+                queue.push(child);
             }
         }
+
+        // after getting out of the while loop,
+        // return the array
+        return array;
     }
 }
