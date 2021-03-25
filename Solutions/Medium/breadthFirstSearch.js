@@ -36,6 +36,12 @@ class Node {
                 // which is a Node (The Node has a name attribute)
             const current = queue.shift();
             array.push(current.name)
+
+            // use a for loop for every child element of current's
+            // children
+            for (const child of current.children) {
+                
+            }
         }
     }
 }
