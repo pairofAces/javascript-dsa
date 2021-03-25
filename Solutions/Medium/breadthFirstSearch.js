@@ -10,6 +10,11 @@
 // BFS approach (Navigating the tree from left-to-right), stores all
 // the nodes' names in the input array and then returns it.
 
+// Complexity Analysis
+    // Time: O(n + x) time, where (n) is the size of the input array
+    // and (x) is the size of the created queue
+
+    // Space: O(x) space, where (x) is the size of the created queue
 class Node {
     // initiate the class with the parameters
     constructor(name) {
