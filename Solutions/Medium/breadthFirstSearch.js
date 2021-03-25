@@ -27,5 +27,11 @@ class Node {
     breadthFirstSearch(array) {
         // first create a queue variable with "this" array input
         const queue = [this];
+
+        // use a while loop for as long as the length of the queue
+        // is greater than 0
+        while (queue.length > 0) {
+            
+        }
     }
 }
