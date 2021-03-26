@@ -24,7 +24,12 @@ function countApplesAndOranges(s, t, a, b, apples, oranges) {
     })
     
     // loop through oranges
+    oranges.forEach(orange => {
         // check for the negative values only
-            // check the distance
+        if (orange > -1) return;
+        // check the distance
+        let distance = orange + b;
+        // is the distance within the range?
+    })
 };
 
