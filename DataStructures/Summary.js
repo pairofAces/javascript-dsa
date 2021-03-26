@@ -24,6 +24,15 @@ class Stack {
     }
 }
 
+// Array also doubles as a stack
+const stack = [];
+
+// methods:
+    // push: push(item) -> O(1) time
+    // pop: pop() -> O(1) time
+    // size: stack.length -> O(1) time
+    // top: stack[stack.length - 1] -> O(1) time
+
 // -----------------------------------------------------------------------
 
 // Queue
@@ -255,3 +264,5 @@ class Stack {
             return closest;
         }
     }
+
+// -----------------------------------------------------------------------
