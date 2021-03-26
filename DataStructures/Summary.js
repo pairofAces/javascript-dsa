@@ -275,3 +275,14 @@ const queue = [];
     }
 
 // -----------------------------------------------------------------------
+
+// Hash Table
+
+// JS's Map is an implementation on the hash table:
+const map = new Map();
+
+    // Methods:
+        // get, using a key: get(key) -> O(1) time
+        // set a key, value: set(key, value) -> O(1) time
+        // remove, using a key: delete(key) -> O(1) time
+        // check if a key exists: has(key) -> O(1) time 
