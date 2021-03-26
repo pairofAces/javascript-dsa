@@ -30,6 +30,11 @@ function countApplesAndOranges(s, t, a, b, apples, oranges) {
         // check the distance
         let distance = orange + b;
         // is the distance within the range?
+        if (distance >= s && distance <= t) count[1] += 1;
     })
+
+    // finally return the count
+        // for each count, print it -> console.log
+    return count.forEach(count => console.log(count));
 };
 
