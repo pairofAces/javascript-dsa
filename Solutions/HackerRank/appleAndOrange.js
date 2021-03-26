@@ -11,6 +11,13 @@
     // oranges: integer array, distances at which each orange falls from the tree.
 
 function countApplesAndOranges(s, t, a, b, apples, oranges) {
-
+    // will need to count
+    // loop through the apples
+        // check for the positive values only
+            // check the distance from the house
+                
+    // loop through oranges
+        // check for the negative values only
+            // check the distance
 };
 
