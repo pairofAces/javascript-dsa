@@ -40,6 +40,15 @@ const stack = [];
     // the first item in is the first out
     // similar to a real life line
 
+
+// JS doesn't have built in support for queues, so Array's are used.
+const queue = [];
+
+    // Methods:
+        // enqueue: push(item) -> O(1) time
+        // dequeue: shift() -> O(n) time
+        // size: queue.length -> O(1) time
+
     class Queue {
         constructor() {
             this.queue = {};
