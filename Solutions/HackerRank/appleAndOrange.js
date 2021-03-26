@@ -12,10 +12,14 @@
 
 function countApplesAndOranges(s, t, a, b, apples, oranges) {
     // will need to count
+    let countt = [0, 0];
     // loop through the apples
+    apples.forEach(apple => {
         // check for the positive values only
+        
+    })
             // check the distance from the house
-                
+    
     // loop through oranges
         // check for the negative values only
             // check the distance
