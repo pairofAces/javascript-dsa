@@ -296,4 +296,12 @@ const map = new Map();
 const set = new Set();
 
 // methods:
-    // 
+    // has(item), checks if (item) is in the set -> O(1) time
+    // add(item), appends (item) to set and returns the set -> O(1) time
+    // delete(item), removes (item) from set and returns "true" on a 
+    // successful removal, otherwise false -> O(1) time 
+
+// Note:
+    // Hash Set is useful when I need to know the existence of a key.
+
+    // Example use Cases: DFS and BFS on graphs
