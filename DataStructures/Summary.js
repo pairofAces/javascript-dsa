@@ -286,3 +286,14 @@ const map = new Map();
         // set a key, value: set(key, value) -> O(1) time
         // remove, using a key: delete(key) -> O(1) time
         // check if a key exists: has(key) -> O(1) time 
+
+// -----------------------------------------------------------------------
+
+// Hash Set
+
+// JS's Set is useful when answering existence queries in constant time. 
+
+const set = new Set();
+
+// methods:
+    // 
