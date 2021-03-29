@@ -8,3 +8,7 @@
     // adjacent lands horizontally or vertically.
         // Assume all four edges of the grid are all surrounded by 
         // water
+
+var numberIslands = function(grid) {
+
+};
