@@ -23,7 +23,11 @@ var numberIslands = function(grid) {
     // Next, we need to loop over the grid input
     for (let i = 0; i < grid.length; i++) {
         for (let j = 0; j < grid[i].length; j++) {
-            
+            // need to check if any of the elements within the
+            // grid are (1)'s (or Islands)
+            if (grid[i][j] === "1") {
+                
+            }
         }
     }
 };
