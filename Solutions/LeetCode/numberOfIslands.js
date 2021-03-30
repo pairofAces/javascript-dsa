@@ -48,5 +48,7 @@ function helper(row, col) {
     grid[row][col] = "0";
 
     // initiate a for loop for the directions of compass
-    
+    for (const direction of compass) {
+
+    }
 };
