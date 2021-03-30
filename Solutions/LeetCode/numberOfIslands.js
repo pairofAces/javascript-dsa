@@ -10,5 +10,13 @@
         // water
 
 var numberIslands = function(grid) {
+    // initiate an variable set to 0
+    let count = 0;
 
+    // create a variable that will hold directional values for reference
+    // [-1, 0] = Up
+    // [0, -1] = Left
+    // [1, 0] = Down
+    // [0, 1] = Right
+    let compass = [[-1, 0], [0, -1], [1, 0], [0, 1]]
 };
