@@ -49,6 +49,7 @@ function helper(row, col) {
 
     // initiate a for loop for the directions of compass
     for (const direction of compass) {
-
+        // use recursion
+        helper(row + direction[0], col + direction[1])
     }
 };
