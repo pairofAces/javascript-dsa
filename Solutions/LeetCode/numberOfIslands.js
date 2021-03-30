@@ -26,8 +26,17 @@ var numberIslands = function(grid) {
             // need to check if any of the elements within the
             // grid are (1)'s (or Islands)
             if (grid[i][j] === "1") {
-                
+                // at this point, increment the count variable
+                count++;
+                // also, use a helper function to check the surrounding
+                // elements
+                helper(i, j);
             }
         }
     }
+};
+
+// create the helper function
+function helper(row, col) {
+
 };
