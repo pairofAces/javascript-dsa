@@ -45,4 +45,8 @@ function helper(row, col) {
 
     // after getting out of the if statement, set the element
     // at grid[row][col] to 0
+    grid[row][col] = "0";
+
+    // initiate a for loop for the directions of compass
+    
 };
