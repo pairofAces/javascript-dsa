@@ -38,5 +38,11 @@ var numberIslands = function(grid) {
 
 // create the helper function
 function helper(row, col) {
+    // use an if statement to check conditions 
+    if (row < 0 || col < 0 || row >= grid.length || col >= grid[0].length || grid[row][col] === "0") {
+        return;
+    }
 
+    // after getting out of the if statement, set the element
+    // at grid[row][col] to 0
 };
