@@ -34,7 +34,10 @@ var numberIslands = function(grid) {
             }
         }
     }
-    
+
+    // return count
+    return count;
+
     // create the helper function
     function helper(row, col) {
         // use an if statement to check conditions 
