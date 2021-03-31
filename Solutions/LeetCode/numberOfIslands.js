@@ -34,22 +34,22 @@ var numberIslands = function(grid) {
             }
         }
     }
-};
-
-// create the helper function
-function helper(row, col) {
-    // use an if statement to check conditions 
-    if (row < 0 || col < 0 || row >= grid.length || col >= grid[0].length || grid[row][col] === "0") {
-        return;
-    }
-
-    // after getting out of the if statement, set the element
-    // at grid[row][col] to 0
-    grid[row][col] = "0";
-
-    // initiate a for loop for the directions of compass
-    for (const direction of compass) {
-        // use recursion
-        helper(row + direction[0], col + direction[1])
-    }
+    
+    // create the helper function
+    function helper(row, col) {
+        // use an if statement to check conditions 
+        if (row < 0 || col < 0 || row >= grid.length || col >= grid[0].length || grid[row][col] === "0") {
+            return;
+        }
+    
+        // after getting out of the if statement, set the element
+        // at grid[row][col] to 0
+        grid[row][col] = "0";
+    
+        // initiate a for loop for the directions of compass
+        for (const direction of compass) {
+            // use recursion
+            helper(row + direction[0], col + direction[1])
+        }
+    };
 };
