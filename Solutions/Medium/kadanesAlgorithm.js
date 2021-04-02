@@ -11,7 +11,9 @@ function kadanesAlgorithm(array) {
     let maxSoFar = array[0];
 
     // initiate a for loop to traverse the array
-    for (let i = 0; i < array.length; i++) {
-        
+    for (let i = 1; i < array.length; i++) {
+        // create a number variable to represent the element
+        // at index [i]
+        const num = array[i];
     }
 }
