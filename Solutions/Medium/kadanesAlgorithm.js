@@ -23,4 +23,6 @@ function kadanesAlgorithm(array) {
         maxEnding = Math.max(num, maxEnding + num);
         maxSoFar = Math.max(maxSoFar, maxEnding);
     }
+    // after proceeding from the for loop, return maxSoFar
+    return maxSoFar;
 }
