@@ -15,5 +15,12 @@ function kadanesAlgorithm(array) {
         // create a number variable to represent the element
         // at index [i]
         const num = array[i];
+
+        // set the maxEnding and maxSoFar variable to the max
+        // of two comparisons
+            // maxEnding -> num, maxEnding + num
+            // maxSoFar -> maxSoFar, maxEnding
+        maxEnding = Math.max(num, maxEnding + num);
+        maxSoFar = Math.max(maxSoFar, maxEnding);
     }
 }
