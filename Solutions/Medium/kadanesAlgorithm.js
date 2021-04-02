@@ -5,6 +5,10 @@
 // returns the maxmum sum that can be obtained by summing up all of the
 // integers in a non-empty subarray of the input array. 
     // a subarray must only contain adjacent numbers
+
+// Complexity
+    // Time: O(n) time, where (n) is the length of the input array
+    // Space: O(1) space, constant
 function kadanesAlgorithm(array) {
     // create a variable to represent the "counters/pointers"
     let maxEnding = array[0];
