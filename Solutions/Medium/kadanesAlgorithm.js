@@ -9,4 +9,9 @@ function kadanesAlgorithm(array) {
     // create a variable to represent the "counters/pointers"
     let maxEnding = array[0];
     let maxSoFar = array[0];
+
+    // initiate a for loop to traverse the array
+    for (let i = 0; i < array.length; i++) {
+        
+    }
 }
