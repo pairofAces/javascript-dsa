@@ -15,4 +15,8 @@ function maxSubsetSumNoAdjacent(array) {
         // then simply return the element
         return array[0];
     }
+
+    // create a variable to represent the max Sum, it will be
+    // a copy of the input array
+    const maxSums = array.slice();
 }
