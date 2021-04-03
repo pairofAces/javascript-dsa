@@ -4,6 +4,11 @@
 // Create a function that takes an array of positive integers
 // and returns the max sum of non-adjacent elements in the array.
     // if input array is empty, function should return 0
+
+// Complexity
+    // Time: O(n) time, where (n) is the length of the input array
+    // Space: O(n) space, where (n) is the length of the created array
+
 function maxSubsetSumNoAdjacent(array) {
     // use conditional logic
         // if the array is empty, return 0
