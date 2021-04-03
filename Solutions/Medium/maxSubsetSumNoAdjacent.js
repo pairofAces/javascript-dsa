@@ -10,4 +10,9 @@ function maxSubsetSumNoAdjacent(array) {
     if (!array.length) {
         return 0;
     }
+    // edge case, if the input only had 1 element
+    if (array.length === 1) {
+        // then simply return the element
+        return array[0];
+    }
 }
