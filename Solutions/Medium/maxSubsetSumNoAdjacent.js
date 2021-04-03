@@ -30,4 +30,8 @@ function maxSubsetSumNoAdjacent(array) {
         // maxSums[i - 1] & maxSums[i - 2] + array[i]
         maxSums[i] = Math.max(maxSums[i - 1], maxSums[i - 2] + array[i]);
     }
+
+    // after getting out of the for loop, return the final element
+    // of the maxSums array
+    return maxSums[maxSums.length - 1];
 }
