@@ -23,4 +23,11 @@ function maxSubsetSumNoAdjacent(array) {
     // set the element at index [1] of maxSums to the max b/w
     // the first two elements in the input array
     maxSums[1] = Math.max(array[0], array[1]);
+
+    // use a for loop, starting at position [2]
+    for (let i = 2; i < array.length; i++) {
+        // at index [i] of maxSums, set the value to the max b/w
+        // maxSums[i - 1] & maxSums[i - 2] + array[i]
+        maxSums[i] = Math.max(maxSums[i - 1], maxSums[i - 2] + array[i]);
+    }
 }
