@@ -17,6 +17,10 @@ function kangaroo(x1, v1, x2, v2) {
         // set the x1 and x2 variables
         x1 = x1 + v1;
         x2 = x2 + v2;
-        
+
+        // use an if statement to check if x1 is equal to x2
+        if (x1 === x2) {
+            
+        }
     }
 }
