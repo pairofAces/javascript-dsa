@@ -14,6 +14,9 @@ function kangaroo(x1, v1, x2, v2) {
     // create a for loop, looping for as long as the
     // [i] variable is less than (max)
     for (let i = 0; i < max; i++){
+        // set the x1 and x2 variables
+        x1 = x1 + v1;
+        x2 = x2 + v2;
         
     }
 }
