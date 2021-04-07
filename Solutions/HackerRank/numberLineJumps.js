@@ -25,4 +25,7 @@ function kangaroo(x1, v1, x2, v2) {
             break;
         }
     }
+
+    // return (complete) in a ternary statement
+    return complete ? "YES" : "NO"
 }
