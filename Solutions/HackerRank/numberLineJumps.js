@@ -10,4 +10,10 @@ function kangaroo(x1, v1, x2, v2) {
 
     // create a boolean variable set to false
     let complete = false;
+
+    // create a for loop, looping for as long as the
+    // [i] variable is less than (max)
+    for (let i = 0; i < max; i++){
+        
+    }
 }
