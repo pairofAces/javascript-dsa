@@ -10,5 +10,6 @@
     // if they are the largest.
 
 function findThreeLargestNumbers(array) {
-
+    // create a variable to represent the final output array
+    const largeThree = [null, null, null];
 };
