@@ -20,4 +20,7 @@ function findThreeLargestNumbers(array) {
             // array created above
         updateLargest(largeThree, num);
     }
+
+    // after the for loop, return the (largeThree) array
+    return largeThree;
 };
