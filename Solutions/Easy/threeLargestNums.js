@@ -31,10 +31,19 @@ function updateLargest(largeThree, num) {
     // in (largeThree) and the (num)
         // make comparisons at each index of the (largeThree) array
     if (largeThree[2] === null || num > largeThree[2]) {
-
+        // aspirational code
+            // create another helper method to handle creating
+            // an array with the largest numbers
+        shiftAndUpdate(largeThree, num, 2);
     } else if (largeThree[1] === null || num > largeThree[1]) {
-
+        // aspirational code
+            // create another helper method to handle creating
+            // an array with the largest numbers
+        shiftAndUpdate(largeThree, num, 1);
     } else {
-
+        // aspirational code
+            // create another helper method to handle creating
+            // an array with the largest numbers
+        shiftAndUpdate(largeThree, num, 0);
     }
 }
