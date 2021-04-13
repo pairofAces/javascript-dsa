@@ -24,3 +24,17 @@ function findThreeLargestNumbers(array) {
     // after the for loop, return the (largeThree) array
     return largeThree;
 };
+
+// create helper function below
+function updateLargest(largeThree, num) {
+    // use if/else statement to make comparisons between the element
+    // in (largeThree) and the (num)
+        // make comparisons at each index of the (largeThree) array
+    if (largeThree[2] === null || num > largeThree[2]) {
+
+    } else if (largeThree[1] === null || num > largeThree[1]) {
+
+    } else {
+
+    }
+}
