@@ -12,4 +12,9 @@
 function findThreeLargestNumbers(array) {
     // create a variable to represent the final output array
     const largeThree = [null, null, null];
+
+    // use a for loop to traverse over each number in the input array
+    for (const num of array) {
+        
+    }
 };
