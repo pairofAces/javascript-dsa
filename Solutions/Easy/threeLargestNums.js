@@ -15,6 +15,9 @@ function findThreeLargestNumbers(array) {
 
     // use a for loop to traverse over each number in the input array
     for (const num of array) {
-        
+        // aspirational code
+            // this helper method will handle updating the (largeThree)
+            // array created above
+        updateLargest(largeThree, num);
     }
 };
