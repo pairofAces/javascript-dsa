@@ -47,3 +47,9 @@ function updateLargest(largeThree, num) {
         shiftAndUpdate(largeThree, num, 0);
     }
 }
+
+// create the shiftAndUpdate helper function below
+    // it will take an array, number, and index parameters
+function shiftAndUpdate(array, num, idx) {
+    
+}
