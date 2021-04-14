@@ -9,6 +9,11 @@
     // the resulting array should contain those integers
     // if they are the largest.
 
+
+// Complexity
+    // Time: O(n) time, where (n) is the length of the input array
+    // Space: O(1) space, because at every iteration, we're creating
+        // only 1 array.
 function findThreeLargestNumbers(array) {
     // create a variable to represent the final output array
     const largeThree = [null, null, null];
