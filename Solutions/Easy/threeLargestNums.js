@@ -60,7 +60,9 @@ function shiftAndUpdate(array, num, idx) {
             // if it is, set the i'th element in (array) to (num)
             array[i] = num;
         } else {
-
+            // if not, then the i'th elment in (array) will be
+            // set to the i'th element plus 1
+            array[i] = array[i + 1];
         }
     }
 }
