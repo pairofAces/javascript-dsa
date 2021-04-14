@@ -51,5 +51,7 @@ function updateLargest(largeThree, num) {
 // create the shiftAndUpdate helper function below
     // it will take an array, number, and index parameters
 function shiftAndUpdate(array, num, idx) {
-    
+    for (let i = 0; i <= idx; i++ ) {
+        
+    }
 }
