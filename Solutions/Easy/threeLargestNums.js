@@ -57,9 +57,10 @@ function shiftAndUpdate(array, num, idx) {
         // use an if/else statement to check if (i) is equal to
         // (idx)
         if (i === idx) {
-
+            // if it is, set the i'th element in (array) to (num)
+            array[i] = num;
         } else {
-            
+
         }
     }
 }
