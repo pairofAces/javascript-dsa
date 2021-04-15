@@ -7,6 +7,17 @@
     // the powerset of P(X) of a set X, is the set of all subsets of X
         // example:
             // powerset of [1,2] is [[], [1], [2], [1,2]]
-function powerset(array) {
-    
+        // NOTE: the sets within the powerset don't need to be in a
+        // specific order
+
+// include another parameter, idx, and set it to null
+function powerset(array, idx = null) {
+    // use an if statement to check if idx is null
+    // or less than 0
+    if (idx === null) {
+
+    }
+    if (idx < 0) {
+        
+    }
 }
