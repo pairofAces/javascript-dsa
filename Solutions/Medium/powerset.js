@@ -15,9 +15,11 @@ function powerset(array, idx = null) {
     // use an if statement to check if idx is null
     // or less than 0
     if (idx === null) {
-
+        // the idx will be set to the last element in the array
+        idx = array.length - 1;
     }
     if (idx < 0) {
-        
+        // then return an empty array, within an array
+        return [[]];
     }
 }
