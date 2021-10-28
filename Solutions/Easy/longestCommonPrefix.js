@@ -8,4 +8,11 @@
 var longestCommonPrefix = function (strs) {
     let prefix = '';
     
+    // edge case if the input array is empty
+    if (strs.length === 0) return '';
+
+    // edge case if the input array has only one element
+    if (strs.length === 1) return strs[0];
+
+    // logic
 }
