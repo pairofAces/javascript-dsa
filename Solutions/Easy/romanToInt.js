@@ -16,5 +16,16 @@ var romanToInt = function(s) {
         // initated to 0
     let total = 0;
 
-    // logic
+    // iterate through the input string
+    for (let i = 0; i < s.length; i++) {
+        
+        if(legend[s[i]] < legend[s[i + 1]]) {
+            total += legend[s[i + 1]] - legend[s[i]];
+            i++;
+        } else {
+            total += legend[s[i]];
+        }
+    }
+
+    return total;
 }
