@@ -15,7 +15,7 @@ var isValid = function(s) {
     var stack = [];
 
     for (let i = 0; i < s.length; i++) {
-        let ch = charAt(i);
+        let ch = s.charAt(i);
         
         if (ch === "(" || ch === "[" || ch === "{") {
             // push the correct closing bracket into (stack)
