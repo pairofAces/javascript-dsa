@@ -5,6 +5,8 @@
     // 'K' in it.
 
 // Brute Force:
+    // Time: O(N * K), where (N) is the length of the array
+    //       and (K) is the input integer 
 function find_average_of_subarrays(K, arr) {
     const result = [];
     for (let i = 0; i < arr.length - K + 1; i++) {
@@ -19,4 +21,14 @@ function find_average_of_subarrays(K, arr) {
     }
 
     return result;
+}
+
+// Sliding Window approach
+function findAveragesOfSubarrays(K, array) {
+    const result = [];
+    let windowSum = 0.0,
+        windowStart = 0;
+        for () {
+            
+        }
 }
