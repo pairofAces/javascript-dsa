@@ -28,7 +28,18 @@ function findAveragesOfSubarrays(K, array) {
     const result = [];
     let windowSum = 0.0,
         windowStart = 0;
-        for () {
-            
+        for (let windowEnd = 0; windowEnd < array.length; windowEnd++) {
+            windowSum += array[windowEnd];
+
+            if (windowEnd >= K - 1) {
+                // calculate the average and push into (result) array; 
+                result.push(windowSum / K);
+                // remove the element going out
+                windowSum -= array[windowStart];
+                // Slide the window to the right
+                windowStart += 1;
+            }
         }
+
+        return result;
 }
