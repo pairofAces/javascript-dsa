@@ -19,7 +19,12 @@ const leastCoins = (coins, amount) => {
     for (let i = 0; i <= amount; i++) {
         // for each coin we are given in the input array (coins)
         for (let j = 0; j < coins.length; j++) {
-            
+            // if the coin value is less than or equal to the sub problem
+            // value
+            if (coins[j] <= i) {
+                // compare the values, and see if there's a better value
+                cache[i] = Math.min(cache[i], cache[i - cache[j]] + 1);
+            }
         }
     }
 }
