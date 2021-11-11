@@ -27,4 +27,6 @@ const leastCoins = (coins, amount) => {
             }
         }
     }
+
+    return cache[amount] > amount ? -1 : cache[amount];
 }
