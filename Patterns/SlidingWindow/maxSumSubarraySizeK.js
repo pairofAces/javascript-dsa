@@ -2,6 +2,9 @@
 // find the maximum sum of any contiguous subarray of size 'K'
 
 // Brute Force
+    // Time Complexity: O(N * K), where (N) is the number of elements within
+    //                  the array, and (K) is the size of the subarray
+
 const max_sum_subarray_of_size_k = (array, k) => {
     // create two reference variables to represent the sum of the 
     // current window, and the max sum
@@ -29,6 +32,10 @@ const max_sum_subarray_of_size_k = (array, k) => {
 }
 
 // Sliding Window Approach
+    // Time Complexity: O(N), where (N) is the number of elements in the array
+
+    // Space Complexity: O(1), constant space
+    
 const maxSumSubarraySizeK = (array, k) => {
     // create the initial variables
     let maxSum = 0,
