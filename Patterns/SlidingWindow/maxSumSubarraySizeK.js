@@ -27,3 +27,37 @@ const max_sum_subarray_of_size_k = (array, k) => {
     // return the the value of (maxSum)
     return maxSum;
 }
+
+// Sliding Window Approach
+const maxSumSubarraySizeK = (array, k) => {
+    // create the initial variables
+    let maxSum = 0,
+    windowStart = 0,
+    windowSum = 0;
+
+    // iterate through the array as a 'window'
+        // to keep the window as size 'k', we'll use an if statement within
+    for (let windowEnd = 0; windowEnd <array.length; windowEnd++) {
+        // increment the windowSum value with the next element 
+        // within the window
+        windowSum += array[windowEnd];
+
+        // if logic to check if (windowEnd) is now greater than 
+        // the length of the window -> (k - 1)
+        if (windowEnd >= k - 1) {
+            // the max will be between the current (maxSum) and (windowSum)
+            maxSum = Math.max(maxSum, windowSum);
+
+            // subtract the element that's moving out of the window, from
+            // (windowSum)
+            windowSum -= array[windowStart];
+
+            // change the value of (windowStart) to move the window one place
+            // to the right
+            windowStart += 1;
+        }
+    }
+
+    // return the value of of the max
+    return maxSum;
+};
