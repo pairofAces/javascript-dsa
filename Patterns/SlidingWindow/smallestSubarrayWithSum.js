@@ -18,7 +18,16 @@ const smallest_subarray_with_sum = (s, arr) => {
         // shrink the size of the 'window' as small as possible until
         // (windowSum) is smaller than (s)
         while (windowSum >= s) {
-            
+            // the minimum length will become the minimum b/w 
+            // the current (minLength) and the value of 
+            // (windowEnd - windowStart + 1)
+            minLength = Math.min(minLength, windowEnd - windowStart + 1);
+
+            // take the element from the front of the window out
+            windowSum -= arr[windowStart];
+
+            // increment the starting position of the window
+            windowStart += 1
         }
     }
 }
