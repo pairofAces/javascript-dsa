@@ -4,6 +4,12 @@
 // find the length of the smallest contiguous subarray whose sum 
 // is greater than or equal to ‘S’. Return 0 if no such subarray exists.
 
+// Complexity Analysis
+    // Time: O(n), where (n) is the length of the input array
+
+    // Space: O(1), constant time, since no external data structures are
+    //        being utilized.
+    
 const smallest_subarray_with_sum = (s, arr) => {
     // create initial refence variables
     let windowSum = 0,
@@ -30,4 +36,10 @@ const smallest_subarray_with_sum = (s, arr) => {
             windowStart += 1
         }
     }
+
+    if (minLength == Infinity) {
+        return 0;
+    }
+
+    return minLength;
 }
