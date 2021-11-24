@@ -16,6 +16,9 @@
         // getNthFib(2) = F1
 
 // Solution using if/else statement
+    // Time: O(2 ^ n) time, where (n) is the size of the input
+
+    // Space: O(n) space
 function getNthFib(n) {
     if (n === 2) {
         return 1;
@@ -27,3 +30,23 @@ function getNthFib(n) {
         return getNthFib(n - 1) + getNthFib(n - 2);
     }
 };
+
+// Optimal Solution
+    // Time: O(n) time, where (n) is the size of the input
+    // Space: O(1) constant space, since no external data structures
+    //        are being used.
+
+function getNFib(n) {
+    const lastTwo = [0, 1];
+    let counter = 3;
+
+    while (counter <= 3) {
+        const next = lastTwo[0] + lastTwo[1];
+        lastTwo[0] = lastTwo[1];
+        lastTwo[1] = next;
+
+        counter++;
+    }
+
+    return n > 1 ? lastTwo[1] : lastTwo[0];
+}
